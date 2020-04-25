@@ -52,7 +52,7 @@
         </div>
       </li>
     </ul>
-    <a href="" class="ml-3"><img src="/images/06-facebook-512.png" alt="" width="20px" height="20px"></a>
+    <a href="" class="ml-3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/06-facebook-512.png" alt="" width="20px" height="20px"></a>
     <a href="" class="ml-3"><img src="/images/twitter.png" alt="" width="20px" height="20px"></a>
     <a href="" class="ml-3"><img src="/images/insta.png" alt="" width="30px" height="30px"></a>
     
