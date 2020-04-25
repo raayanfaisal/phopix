@@ -68,7 +68,7 @@
     <a href="" class="ml-3"><img src="/images/twitter.png" alt="" width="20px" height="20px"></a>
     <a href="" class="ml-3"><img src="/images/insta.png" alt="" width="30px" height="30px"></a></br><br>
     phopixofficial@gmail.com</br><br>
-    +9607754855
+    +9607815551/9682212
 
   </div>
   
