@@ -7,7 +7,7 @@
 <div class="container pt-5 mt-5">
     <div class="row">
         <div class="col-9">
-            <h1>
+            <h1 class="display-4">
                 WELCOME TO PHOPIX
             </h1>
             
