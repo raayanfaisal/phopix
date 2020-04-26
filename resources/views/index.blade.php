@@ -11,7 +11,7 @@
                 WELCOME TO PHOPIX
             </h1>
             
-            <h4 class="pt-4">phopix is a web development team based in the republic of maldives currently we are a team of 5 young web developers note: Site in development </h4>
+            <h4 class="pt-4">Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , Note Site under development  </h4>
                 <a href="#cont" class="btn btn-primary btn-lg active m-5" role="button" aria-pressed="true">Hire Us!</a>
             
             <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/DEMO.png" alt="Recent work" width="100%" height="500px">
@@ -21,8 +21,7 @@
             <div class="col-12 mt-5 pt-5">
                 <h2 id="abt">Who are We?</h2>
                 <p>
-                    Phopix pvt ltd is a company based in the republic of maldives. And we offer a variety of services and we strive to do them as near to perfection as we can get to ensure 100% customer satisfaction in the end
-                    we specialize in HTML5 CSS3 Laravel MySQL WordPress for building custom high end websites that scale well on all your devices
+                    Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices 
                 </p>
                 <h3>Services we offer</h3>
                 <ul class="list-group list-group-flush mt-5">
