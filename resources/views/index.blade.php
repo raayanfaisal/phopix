@@ -26,11 +26,9 @@
                 </p>
                 <h3>Services we offer</h3>
                 <ul class="list-group list-group-flush mt-5">
-                    <li class="list-group-item">Service 1</li>
-                    <li class="list-group-item">Service 2</li>
-                    <li class="list-group-item">Service 3</li>
-                    <li class="list-group-item">Service 4</li>
-                    <li class="list-group-item">Service 5</li>
+                    <li class="list-group-item">Creating and managing Social media page</li>
+                    <li class="list-group-item">Website Designing and Development</li>
+                    <li class="list-group-item">Website Management</li>
                 </ul>
             </div>
         
