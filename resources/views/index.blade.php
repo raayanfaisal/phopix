@@ -6,7 +6,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <div class="container pt-5 mt-5">
     <div class="row">
-        <div class="col-9">
+        <div class="col-12">
             <h1 class="display-4">
                 WELCOME TO PHOPIX
             </h1>
