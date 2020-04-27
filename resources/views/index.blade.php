@@ -149,7 +149,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a class="text-white" href=""> phopix.com</a>
   </div>
   <!-- Copyright -->
 
