@@ -58,23 +58,101 @@
 </form>
 <!-- Default form contact -->
 </div>
+</div>
 <!-- Footer -->
-<footer class="page-footer font-small ">
+<footer class="container-fluid page-footer font-small mdb-color lighten-3 pt-4" style="background-color: grey; color: white;">
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">
-            Website Under development<br><a href="" class="ml-3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/06-facebook-512.png" alt="" width="20px" height="20px"></a>
-    <a href="" class="ml-3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/twitter.png" alt="" width="20px" height="20px"></a>
-    <a href="" class="ml-3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/insta.png" alt="" width="30px" height="30px"></a></br><br>
-    phopixofficial@gmail.com</br><br>
-    +9607815551/9682212
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mb-4">phopix pvt, ltd</h5>
+      
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <a class="text-white" href="#!">FaceBook</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a class="text-white" href="#!">Twitter</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a class="text-white" href="#!">Instagram</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a class="text-white" href="#!">Privacy Policy</a>
+            </p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Contact details -->
+        <h5 class="font-weight-bold text-uppercase mb-4">Contact</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <i class="fas fa-home mr-3"></i> phopixofficial@gmail.com</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> 7515551 / 9682212</p>
+          </li>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+        <!-- Social buttons -->
+        
+
+    </div>
+    <!-- Grid row -->
 
   </div>
-  
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-</div>
-
 @endsection
