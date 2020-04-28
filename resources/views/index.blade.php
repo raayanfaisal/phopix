@@ -120,11 +120,11 @@
         <ul class="list-unstyled">
           <li>
             <p>
-              <i class="fas fa-home mr-3"></i> phopixofficial@gmail.com</p>
+              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/mmail.png" alt="mail" width="30px" height="30px" ><i class="fas fa-home mr-3"></i> phopixofficial@gmail.com</p>
           </li>
           <li>
             <p>
-              <i class="fas fa-envelope mr-3"></i> 7515551 / 9682212</p>
+              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phone.png" alt="mail" width="30px" height="30px" ><i class="fas fa-envelope mr-3"></i> 7515551 / 9682212</p>
           </li>
 
       </div>
