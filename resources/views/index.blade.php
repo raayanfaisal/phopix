@@ -1,50 +1,116 @@
 @extends('layouts.app')
 
 @section('content')
+<!-- ======= Hero Section ======= -->
 <div class="container pt-5 mt-5">
     <div class="row">
         <div class="col-12">
-            <h1 class="display-4">
-                WELCOME TO PHOPIX
+            <h1>
+                Welcome to PhoPix.
             </h1>
-            
-            <h4 class="pt-4">Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>  </h4>
-                <a href="#cont" class="btn btn-primary btn-lg active m-5" role="button" aria-pressed="true">Hire Us!</a>
-            
-            <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/DEMO.png" alt="Recent work" width="100%" height="auto">
-            
-        </div>
-        
-            <div class="col-12 mt-5 pt-5">
-                <h2 id="abt">Who are We?</h2>
-                <p>
-                    Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices 
-                </p>
-                <h3>Services we offer</h3>
-                <ul class="list-group list-group-flush mt-5">
-                    <li class="list-group-item">Creating and managing Social media page</li>
-                    <li class="list-group-item">Website Designing and Development</li>
-                    <li class="list-group-item">Website Management</li>
-                </ul>
-            </div>
-        
-        <div class="col-11 pt-5 mt-5">
-            <h2 id="port">Some of our recent Works</h2>
-            <p class="pt-4">Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here</b>
-            </p>
+            <h4 class="pt-4">
+            Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>
+            </h4>
+            <a href="#cont" class="btn btn-primary btn-lg active m-5" role="button" aria-pressed="true">Hire Us!</a>
+            <img src="/images/demo.png" alt="Recent work" width="100%" height="auto">
         </div>
     </div>
-    <div class="col-12">
-        <!-- Default form contact -->
-        <form class="text-center border border-light p-5" action="/index">
+<!-- ======= End Hero Section ======= -->
+<!-- ======= About Section ======= -->
+    <div class="row">
+        <div class="col-12 mt-5 pt-5">
+            <h2>
+                Who are we?
+            </h2>
+            <p>
+            Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices
+            </p>
+<!-- ======= Service Section ======= -->
+            <h2 class="mt-4">
+                Services we offer.
+            </h2>
+            <p>
+              Below are our services
+            </p>
+            <div class="card-group mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Web design and development.
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
 
-        <p class="h4 mb-4" id="cont">Hire Us!</p>
-        <label>Personal Details</label>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Website Maintanance.
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Application development. 
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Social media page management.
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Logo Designing 
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Website management
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="pt-5">
+        Some of our recent works
+    </h2>
+    <p>
+    Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
+    </p>
+    <!-- Default form contact -->
+        <form class="text-center border border-light p-5" action="/" method="post">
+        {{ csrf_field() }}
+        <p class="h4 mb-4">Get in touch!</p>
+
         <!-- Name -->
         <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="nme">
 
         <!-- Email -->
         <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="mail">
+
+
 
         <!-- Message -->
         <div class="form-group">
@@ -52,104 +118,49 @@
         </div>
         <!-- Send button -->
         <button class="btn btn-secondary btn-block" type="submit">Send</button>
-</form>
-<!-- Default form contact -->
+
+        </form>
+        <!-- Default form contact -->
 </div>
-</div>
+<div class="container-fluid">
 <!-- Footer -->
-<footer class="container-fluid page-footer font-small mdb-color lighten-3 pt-4" style="background-color: grey; color: white;">
+<footer class="page-footer font-small special-color-dark pt-4" style="background-color: grey;"> 
 
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+  <!-- Footer Elements -->
+  <div class="container">
 
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mb-4">phopix pvt, ltd</h5>
-      
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mb-4">Usefull Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <p>
-              <a class="text-white" href="#!">FaceBook</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a class="text-white" href="#!">Twitter</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a class="text-white" href="#!">Instagram</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a class="text-white" href="#!">Privacy Policy</a>
-            </p>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-        <!-- Contact details -->
-        <h5 class="font-weight-bold text-uppercase mb-4">Contact</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <p>
-              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/mmail.png" alt="mail" width="30px" height="30px" ><i class="fas fa-home mr-3"></i> phopixofficial@gmail.com</p>
-          </li>
-          <li>
-            <p>
-              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phone.png" alt="mail" width="30px" height="30px" ><i class="fas fa-envelope mr-3"></i> 7515551 / 9682212</p>
-          </li>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-
-        <!-- Social buttons -->
-        
-
-    </div>
-    <!-- Grid row -->
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"><a href=""><img src="/images/facebook.png" alt="" width="50px" height="50px"></a></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"><a href="https://www.instagram.com/phopix.mv/"><img src="/images/inst.png" alt="" width="50px" height="50px"></a></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"><a href="https://twitter.com/PhopixM"><img src="/images/twtt.png" alt="" width="50px" height="50px"></a></i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
 
   </div>
-  <!-- Footer Links -->
+  <!-- Footer Elements -->
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a class="text-white" href=""> phopix.com</a>
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
+</div>
+<!-- ======= Service Section ======= -->
+<!-- ======= End About Section ======= -->
 @endsection
