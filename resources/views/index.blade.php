@@ -11,7 +11,7 @@
             <h4 class="pt-4">Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>  </h4>
                 <a href="#cont" class="btn btn-primary btn-lg active m-5" role="button" aria-pressed="true">Hire Us!</a>
             
-            <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/DEMO.png" alt="Recent work" width="100%" height="500px">
+            <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/DEMO.png" alt="Recent work" width="100%" height="auto">
             
         </div>
         
