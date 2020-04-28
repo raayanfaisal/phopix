@@ -12,6 +12,8 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
+    
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -19,43 +21,46 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <style>
+    h1 {
+
+        animation: type 3s steps(17);
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 4px solid black;
+        font-family: consolas;
+    }
+
+    @keyframes type {
+
+      0% {
+
+        width: 0ch;
+      }
+      100% {
+
+        width: 22ch;
+      }
+    }
+    </style>
 </head>
 <body>
     <div id="app">
         <header>
             <div class="container mt-5">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                      <a class="navbar-brand" href="#">PHOPIX</a>
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#abt">Who we are</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#port">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#cont">Hire Us</a>
-            </li>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-    <a href="" class="ml-3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/06-facebook-512.png" alt="" width="20px" height="20px"></a>
-    <a href="" class="ml-3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/twitter.png" alt="" width="20px" height="20px"></a>
-    <a href="" class="ml-3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/insta.png" alt="" width="30px" height="30px"></a>
-    
+            <nav class="navbar navbar-expand-lg navbar-light bg-white" style="">
+  <a class="navbar-brand" href="#">Phopix</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Who We Are</a>
+      <a class="nav-item nav-link" href="#">Portfolio</a>
+      <a class="nav-item nav-link" href="#">Get in touch</a>
+    </div>
   </div>
 </nav>
             </div>
