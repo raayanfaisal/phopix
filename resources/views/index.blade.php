@@ -124,7 +124,7 @@
 </div>
 <div class="container-fluid">
 <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4" style="background-color: grey;"> 
+<footer class="page-footer font-small special-color-dark pt-4" style="background-color: grey; color: white;"> 
 
   <!-- Footer Elements -->
   <div class="container">
@@ -154,7 +154,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a href="https://mdbootstrap.com/" class="text-white"> phopix.com</a>
   </div>
   <!-- Copyright -->
 
