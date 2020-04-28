@@ -14,11 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('pages.index');
 });
+
+Route::post('/', 'ContactController@index');
 
 Auth::routes();
 
-Route::get('/', 'ContactController@index');
+
 
 Route::get('/home', 'HomeController@index')->name('home');
