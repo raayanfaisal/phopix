@@ -14,16 +14,10 @@ class ContactController extends Controller
      */
     public function index(Request $request)
     {
-        $order = new ContactModel();
+        //initiate the model class
+       $order = new ContactModel();
        //get the form data and store in database
-       $name = $request->input('nme');
-       $name = $request->input('mail');
-       $name = $request->input('Messege');
-        
-       $data = array('nme'=>$name, 'mail'=>$mle, 'Messege'=>$msg);
-        
-       DB::table('contact_models')->insert($data);
-       return 'Success';
+       ContactModel::create($request->all());
     }
 
     /**
