@@ -31,6 +31,17 @@
         border-right: 4px solid black;
         font-family: consolas;
     }
+    
+    p {
+        
+        letter-spacing: 3px;
+        
+
+    font-family: 'Montserrat', sans-serif;
+
+
+    
+    }
 
     @keyframes type {
 
