@@ -32,62 +32,62 @@
             <p>
               Below are our services
             </p>
-            <div class="card-group mt-5">
-                <div class="card m-5">
+            <div class="card-group">
+                <div class="card m-2" style="background-color: grey; color: white;">
                     <div class="card-body">
                         <h4 class="card-title">
                           Web design and development.
                         </h4>
-                        <p>need a website ? We will design and develop a high-end website that will scale well on all devices</p>
+                        <p>This is a wider card supporting a imaghe</p>
                     </div>
                 </div>
 
-                <div class="card m-5">
+                <div class="card m-2" style="background-color: grey; color: white;">
                     <div class="card-body">
                         <h4 class="card-title">
                           Website Maintanance.
                         </h4>
-                        <p>We will maintain your website like making updates pushing new images etc </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group mb-5">
-                <div class="card m-5">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Application development. 
-                        </h4>
-                        <p>Need an app ? we will build you a app for your needs that support IOS and Android</p>
-                    </div>
-                </div>
-
-                <div class="card m-5">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Social media page management.
-                        </h4>
-                        <p>We will maintain your social media pages for you and keep them upto date</p>
+                        <p>This is a wider card supporting a imaghe</p>
                     </div>
                 </div>
             </div>
 
             <div class="card-group">
-                <div class="card m-5">
+                <div class="card m-2" style="background-color: grey; color: white;">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Application development. 
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="background-color: grey; color: white;">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                          Social media page management.
+                        </h4>
+                        <p>This is a wider card supporting a imaghe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card m-2" style="background-color: grey; color: white;">
                     <div class="card-body">
                         <h4 class="card-title">
                           Logo Designing 
                         </h4>
-                        <p>Need a logo ? we will design for you a logo that is modern and memorable</p>
+                        <p>This is a wider card supporting a imaghe</p>
                     </div>
                 </div>
 
-                <div class="card m-5">
+                <div class="card m-2" style="background-color: grey; color: white;">
                     <div class="card-body">
                         <h4 class="card-title">
                           Website management
                         </h4>
-                        <p>Have a website and need to manage it ? leave it to us! we will keep it upto date</p>
+                        <p>This is a wider card supporting a imaghe</p>
                     </div>
                 </div>
             </div>
