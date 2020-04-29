@@ -32,7 +32,7 @@
             <p>
               Below are our services
             </p>
-            <div class="card-group mt-5">
+            <div class="card-group mt-5 mb-5">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">
