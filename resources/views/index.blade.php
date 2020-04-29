@@ -106,7 +106,15 @@
 
   <!-- Footer Elements -->
   <div class="container">
+     
+    <div class="text-center mb-2">
+          <a href="" class="text-white">Privacy Policy |</a>
 
+          <a href="" class="text-white">Terms and Condition's |</a>
+
+          <a href="#" class="text-white">Back to Top </a>
+      </div> 
+    
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
