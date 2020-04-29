@@ -32,8 +32,8 @@
             <p>
               Below are our services
             </p>
-            <div class="card-group mt-5 mb-5">
-                <div class="card">
+            <div class="card-group mt-5">
+                <div class="card m-5">
                     <div class="card-body">
                         <h4 class="card-title">
                           Web design and development.
@@ -42,7 +42,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card m-5">
                     <div class="card-body">
                         <h4 class="card-title">
                           Website Maintanance.
@@ -53,7 +53,7 @@
             </div>
 
             <div class="card-group mb-5">
-                <div class="card">
+                <div class="card m-5">
                     <div class="card-body">
                         <h4 class="card-title">
                           Application development. 
@@ -62,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card m-5">
                     <div class="card-body">
                         <h4 class="card-title">
                           Social media page management.
@@ -73,7 +73,7 @@
             </div>
 
             <div class="card-group">
-                <div class="card">
+                <div class="card m-5">
                     <div class="card-body">
                         <h4 class="card-title">
                           Logo Designing 
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card m-5">
                     <div class="card-body">
                         <h4 class="card-title">
                           Website management
