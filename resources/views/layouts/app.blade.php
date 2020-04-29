@@ -34,7 +34,7 @@
     
     p {
         
-        letter-spacing: 3px;
+        
         
 
     font-family: 'Montserrat', sans-serif;
