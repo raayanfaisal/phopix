@@ -59,7 +59,7 @@
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#">Who We Are</a>
       <a class="nav-item nav-link" href="#">Portfolio</a>
-      <a class="nav-item nav-link" href="#">Get in touch</a>
+      <a class="nav-item nav-link" href="mailto:phopixofficial@gmail.com">Get in touch</a>
     </div>
   </div>
 </nav>
