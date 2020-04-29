@@ -61,7 +61,7 @@
         <header>
             <div class="container mt-5">
             <nav class="navbar navbar-expand-lg navbar-light bg-white" style="">
-  <a class="navbar-brand" href="#"><img src="/images/hlogo.png" alt="logo" width="35px" height="35px"></a>
+  <a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/hlogo.png" alt="logo" width="35px" height="35px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
