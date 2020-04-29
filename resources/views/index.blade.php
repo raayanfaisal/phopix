@@ -100,7 +100,7 @@
     Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
     </p>
     <!-- Default form contact -->
-        <form class="text-center border border-light p-5" action="/" method="post">
+        <form class="text-center border border-light p-5" action="/index" method="post">
         {{ csrf_field() }}
         <p class="h4 mb-4">Get in touch!</p>
 
