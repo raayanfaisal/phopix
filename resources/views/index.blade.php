@@ -52,7 +52,7 @@
                 </div>
             </div>
 
-            <div class="card-group">
+            <div class="card-group mb-5">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">
