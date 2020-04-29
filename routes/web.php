@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/index', 'ContactController@index');
+Route::post('/index', 'ContactController@index');
 
 Route::get('/home', 'HomeController@index')->name('home');
