@@ -11,8 +11,8 @@
             <h4 class="pt-4">
             Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>
             </h4>
-            <a href="#cont" class="btn btn-primary btn-lg active m-5" role="button" aria-pressed="true">Hire Us!</a>
-            <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/demo.png" alt="Recent work" width="100%" height="auto">
+            
+            <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/demo.png" alt="Recent work" width="100%" height="auto" class="mt-4">
         </div>
     </div>
 <!-- ======= End Hero Section ======= -->
@@ -99,28 +99,6 @@
     <p>
     Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
     </p>
-    <!-- Default form contact -->
-        <form class="text-center border border-light p-5" action="/index" method="post">
-        {{ csrf_field() }}
-        <p class="h4 mb-4">Get in touch!</p>
-
-        <!-- Name -->
-        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="nme">
-
-        <!-- Email -->
-        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="mail">
-
-
-
-        <!-- Message -->
-        <div class="form-group">
-            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="msg"></textarea>
-        </div>
-        <!-- Send button -->
-        <button class="btn btn-secondary btn-block" type="submit">Send</button>
-
-        </form>
-        <!-- Default form contact -->
 </div>
 <div class="container-fluid">
 <!-- Footer -->
