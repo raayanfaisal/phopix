@@ -47,7 +47,6 @@
       
       letter-spacing: 1px;
       font-family: 'Roboto', sans-serif;
-      text-transform: uppercase;
       font-weight: 500;
       letter-spacing: 2px;
       color: #5a84a2;
