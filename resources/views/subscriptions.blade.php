@@ -6,9 +6,10 @@
     <div class="card" style="width: 18rem;" id="cd">
  
   <div class="card-body">
-    <h2 class="card-title">$50</h2>
-    <h2 class="card-title">$500</h2>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h2 class="card-title">Basic Plan</h2>
+    <h2 class="card-title">$50<small>/month</small></h2>
+    <h2 class="card-title">$500<small>/month</small></h2>
+    
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item" style="background-color: #F2F5F7;">Upto 2 pages</li>
@@ -25,9 +26,10 @@
 <div class="card" style="width: 18rem;" id="cd">
   
   <div class="card-body">
-    <h2 class="card-title">$90</h2>
-    <h2 class="card-title">$1000</h2>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h2 class="card-title">Plus Plan</h2>
+    <h2 class="card-title">$90<small>/month</small></h2>
+    <h2 class="card-title">$1000<small>/month</small></h2>
+    
   </div>
   <ul class="list-group list-group-flush" style=" ">
     <li class="list-group-item" style="background-color: #F2F5F7;">upto 5 pages</li>
@@ -45,9 +47,10 @@
 <div class="card" style="width: 18rem;" id="cd">
  
   <div class="card-body">
-    <h2 class="card-title">$150</h2>
-    <h2 class="card-title">$1700</h2>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h2 class="card-title">Premium Plan</h2>
+    <h2 class="card-title">$150<small>/month</small></h2>
+    <h2 class="card-title">$1700<small>/month</small></h2>
+    
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item" style="background-color: #F2F5F7;">upto 15 pages</li>
