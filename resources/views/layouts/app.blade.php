@@ -122,13 +122,7 @@
     }
 
     #ft {
-
-      box-shadow: -2px -2px 8px rgba(255,255,255,1),
-                  -2px -2px 12px rgba(255,255,255,0.5),
-                  inset 2px 2px 4px rgba(255,255,255,0.1)
-                    ,
-                  2px 2px 8px rgba(0,0,0,0.15);
-                  text-transform: uppercase;
+      background: #2e3f49;
       font-weight: 500;
       letter-spacing: 2px;
       color: #5a84a2;
