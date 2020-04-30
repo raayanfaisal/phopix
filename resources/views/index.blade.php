@@ -95,7 +95,7 @@
     <h2 class="pt-5">
         Some of our recent works
     </h2>
-    <p>
+    <p id="work">
     Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
     </p> 
 </div>
