@@ -153,7 +153,7 @@
     <div id="app">
         <header>
             <div class="container mt-5">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white" style="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-#F2F5F7" style="">
   <a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/hlogo.png" alt="logo" width="40px" height="40px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
