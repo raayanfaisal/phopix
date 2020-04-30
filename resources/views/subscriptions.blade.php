@@ -76,7 +76,7 @@
 
           <a href="" class="">Terms and Condition's |</a>
 
-          <a href="https://forms.gle/5Ro8mnCCLcEfdZnq5" class="text-white">Back to Top </a>
+          <a href="https://forms.gle/5Ro8mnCCLcEfdZnq5" class="">Back to Top </a>
       </div>
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
