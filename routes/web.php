@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/subscriptions', function () {
+        return view('subscriptions');     
+});
+
 Auth::routes();
 
 Route::get('/index', 'ContactController@index');
