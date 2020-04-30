@@ -2,17 +2,16 @@
 
 @section('content')
 <!-- ======= Hero Section ======= -->
-<div class="container pt-5 mt-5">
+<div class="container pt-5 mt-5" style="background-color: #F2F5F7">
     <div class="row">
         <div class="col-12">
             <h1>
                 Welcome to PhoPix.
             </h1>
             <h4 class="pt-4">
-            Phopix is a web development team based in the republic of Maldives . Currently we are a team of 4 young web developers , <b>Note Site under development</b>
+            Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>
             </h4>
-            
-            <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/demo.png" alt="Recent work" width="100%" height="auto" class="mt-4">
+            <img src="/images/demo.png" alt="Recent work" width="100%" height="auto" class="mt-4" id="timg">
         </div>
     </div>
 <!-- ======= End Hero Section ======= -->
@@ -32,62 +31,64 @@
             <p>
               Below are our services
             </p>
-            <div class="card-group">
-                <div class="card m-2" style="background-color: grey; color: white;">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Web design and development.
-                        </h4>
-                        <p>This is a wider card supporting a imaghe</p>
+            <div class="">
+                <div class="card-group">
+                    <div class="card m-2" style="" id="cd">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Web design and development.
+                            </h4>
+                            <p>This is a wider card supporting a imaghe</p>
+                        </div>
+                    </div>
+
+                    <div class="card m-2" style="" id="cd">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Website Maintanance.
+                            </h4>
+                            <p>This is a wider card supporting a imaghe</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card m-2" style="background-color: grey; color: white;">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Website Maintanance.
-                        </h4>
-                        <p>This is a wider card supporting a imaghe</p>
+                <div class="card-group">
+                    <div class="card m-2" style="" id="cd">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Application development. 
+                            </h4>
+                            <p>This is a wider card supporting a imaghe</p>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="card-group">
-                <div class="card m-2" style="background-color: grey; color: white;">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Application development. 
-                        </h4>
-                        <p>This is a wider card supporting a imaghe</p>
-                    </div>
-                </div>
-
-                <div class="card m-2" style="background-color: grey; color: white;">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Social media page management.
-                        </h4>
-                        <p>This is a wider card supporting a imaghe</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card m-2" style="background-color: grey; color: white;">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Logo Designing 
-                        </h4>
-                        <p>This is a wider card supporting a imaghe</p>
+                    <div class="card m-2" style="" id="cd">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Social media page management.
+                            </h4>
+                            <p>This is a wider card supporting a imaghe</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card m-2" style="background-color: grey; color: white;">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                          Website management
-                        </h4>
-                        <p>This is a wider card supporting a imaghe</p>
+                <div class="card-group">
+                    <div class="card m-2" style="" id="cd">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Logo Designing 
+                            </h4>
+                            <p>This is a wider card supporting a imaghe</p>
+                        </div>
+                    </div>
+
+                    <div class="card m-2" style="" id="cd">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Website management
+                            </h4>
+                            <p>This is a wider card supporting a imaghe</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,49 +99,47 @@
     </h2>
     <p>
     Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
-    </p>
+    </p> 
 </div>
 <div class="container-fluid">
 <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4" style="background-color: grey; color: white;"> 
+<footer class="page-footer font-small special-color-dark pt-4" style="" id="ft"> 
 
   <!-- Footer Elements -->
   <div class="container">
-     
     <div class="text-center mb-2">
-          <a href="" class="text-white">Privacy Policy |</a>
+          <a href="" class="text-info">Privacy Policy |</a>
 
-          <a href="" class="text-white">Terms and Condition's |</a>
+          <a href="" class="text-info">Terms and Condition's |</a>
 
-          <a href="#" class="text-white">Back to Top </a>
-      </div> 
-    
+          <a href="#" class="text-info">Back to Top </a>
+      </div>
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"><a href="https://facebook.com/Phopix-108547830842311/"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/facebook.png" alt="" width="50px" height="50px"></a></i>
+          <i class="fab fa-facebook-f"><a href=""><img src="/images/facebook.png" alt="" width="50px" height="50px"></a></i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"><a href="https://www.instagram.com/phopix.mv/"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/inst.png" alt="" width="50px" height="50px"></a></i>
+          <i class="fab fa-twitter"><a href="https://www.instagram.com/phopix.mv/"><img src="/images/inst.png" alt="" width="50px" height="50px"></a></i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"><a href="https://twitter.com/PhopixM"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/twtt.png" alt="" width="50px" height="50px"></a></i>
+          <i class="fab fa-google-plus-g"><a href="https://twitter.com/PhopixM"><img src="/images/twtt.png" alt="" width="50px" height="50px"></a></i>
         </a>
       </li>
     </ul>
     <!-- Social buttons -->
-
+    
   </div>
   <!-- Footer Elements -->
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/" class="text-white"> phopix.com</a>
+    <a href="" style="" class="text-info"> phopix.com</a>
   </div>
   <!-- Copyright -->
 
