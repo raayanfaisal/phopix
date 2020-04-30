@@ -8,7 +8,7 @@
   <div class="card-body">
     <h2 class="card-title">Basic Plan</h2>
     <h2 class="card-title">$50<small>/month</small></h2>
-    <h2 class="card-title">$500<small>/month</small></h2>
+    <h2 class="card-title">$500<small>/year</small></h2>
     
   </div>
   <ul class="list-group list-group-flush">
@@ -28,7 +28,7 @@
   <div class="card-body">
     <h2 class="card-title">Plus Plan</h2>
     <h2 class="card-title">$90<small>/month</small></h2>
-    <h2 class="card-title">$1000<small>/month</small></h2>
+    <h2 class="card-title">$1000<small>/year</small></h2>
     
   </div>
   <ul class="list-group list-group-flush" style=" ">
@@ -49,7 +49,7 @@
   <div class="card-body">
     <h2 class="card-title">Premium Plan</h2>
     <h2 class="card-title">$150<small>/month</small></h2>
-    <h2 class="card-title">$1700<small>/month</small></h2>
+    <h2 class="card-title">$1700<small>/year</small></h2>
     
   </div>
   <ul class="list-group list-group-flush">
