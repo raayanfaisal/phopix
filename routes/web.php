@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('pages.index');
 });
 
-Route::post('/', 'ContactController@index');
+
 
 Route::get('/subscriptions', function () {
     return view('pages.subscriptions');
