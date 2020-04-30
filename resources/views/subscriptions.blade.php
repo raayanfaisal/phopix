@@ -23,7 +23,7 @@
   </div>
 </div>
 <div class="card" style="width: 18rem;" id="cd">
-  <img class="card-img-top" src="/images/plus.png" alt="Card image cap">
+  <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/1.png" alt="Card image cap">
   <div class="card-body">
     <h2 class="card-title">$90</h2>
     <h2 class="card-title">$1000</h2>
@@ -43,7 +43,7 @@
   </div>
 </div>
 <div class="card" style="width: 18rem;" id="cd">
-  <img class="card-img-top" src="/images/premium.png" alt="Card image cap">
+  <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/1.png" alt="Card image cap">
   <div class="card-body">
     <h2 class="card-title">$150</h2>
     <h2 class="card-title">$1700</h2>
