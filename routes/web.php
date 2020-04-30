@@ -14,11 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('pages.index');
+});
+
+Route::post('/', 'ContactController@index');
+
+Route::get('/subscriptions', function () {
+    return view('pages.subscriptions');
 });
 
 Auth::routes();
 
-Route::post('/index', 'ContactController@index');
+
 
 Route::get('/home', 'HomeController@index')->name('home');
