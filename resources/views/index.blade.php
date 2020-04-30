@@ -118,17 +118,17 @@
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"><a href=""><img src="/images/facebook.png" alt="" width="50px" height="50px"></a></i>
+          <i class="fab fa-facebook-f"><a href=""><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/facebook.png" alt="" width="50px" height="50px"></a></i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"><a href="https://www.instagram.com/phopix.mv/"><img src="/images/inst.png" alt="" width="50px" height="50px"></a></i>
+          <i class="fab fa-twitter"><a href="https://www.instagram.com/phopix.mv/"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/insta.png" alt="" width="50px" height="50px"></a></i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"><a href="https://twitter.com/PhopixM"><img src="/images/twtt.png" alt="" width="50px" height="50px"></a></i>
+          <i class="fab fa-google-plus-g"><a href="https://twitter.com/PhopixM"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/twtt.png" alt="" width="50px" height="50px"></a></i>
         </a>
       </li>
     </ul>
