@@ -5,9 +5,7 @@
 <div class="container pt-5 mt-5" style="background-color: #F2F5F7">
     <div class="row">
         <div class="col-12">
-            <h1>
-                Welcome to PhoPix.
-            </h1>
+          
             <h4 class="pt-4">
             Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>
             </h4>
