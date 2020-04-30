@@ -72,9 +72,9 @@
   <!-- Footer Elements -->
   <div class="container">
     <div class="text-center mb-2">
-          <a href="" class="text-white">Privacy Policy |</a>
+          <a href="" class="">Privacy Policy |</a>
 
-          <a href="" class="text-white">Terms and Condition's |</a>
+          <a href="" class="">Terms and Condition's |</a>
 
           <a href="https://forms.gle/5Ro8mnCCLcEfdZnq5" class="text-white">Back to Top </a>
       </div>
