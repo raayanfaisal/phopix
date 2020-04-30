@@ -103,7 +103,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="" style="" class="text-white"> Phopix.com</a>
+    <a href="" style="" class=""> Phopix.com</a>
   </div>
   <!-- Copyright -->
 
