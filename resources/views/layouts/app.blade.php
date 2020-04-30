@@ -22,25 +22,118 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="css/mdb.min.css">
-    <style>
+     <style>
+    body {
+
+      background-color: #F2F5F7;
+    }
     h1 {
 
-        animation: type 3s steps(17);
+        animation: type 2s steps(17);
         overflow: hidden;
         white-space: nowrap;
         border-right: 4px solid black;
         font-family: consolas;
+        text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #5a84a2;
+      
     }
-    
+
     p {
-        
-        
-        
-    letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;
+
+      
+      
+      letter-spacing: 1px;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #5a84a2;
+      font-size:18px;
 
 
-    
+
+    }
+
+    #cd {
+
+      border-radius: 23px;
+      background: #F2F5F7;
+      box-shadow:  10px 10px 22px #e1e4e6, 
+                  -10px -10px 22px #ffffff;
+      border: none;
+     
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #5a84a2;
+      font-size:18px;
+    }
+
+    #cd:hover {
+
+      box-shadow: inset -2px -2px 8px rgba(255,255,255,1),
+                  inset -2px -2px 12px rgba(255,255,255,0.5),
+                  inset 2px 2px 4px rgba(255,255,255,0.1)
+                    ,
+                 inset 2px 2px 8px rgba(0,0,0,0.15);
+      background-color: #F2F5F7;
+
+    }
+
+    #button {
+
+      position: reletive;
+      display: inline-block;
+      padding: 10px 30px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #5a84a2;
+      font-size:18px;
+      border-radius: 40px;
+      box-shadow: -2px -2px 8px rgba(255,255,255,1),
+                  -2px -2px 12px rgba(255,255,255,0.5),
+                  inset 2px 2px 4px rgba(255,255,255,0.1)
+                    ,
+                  2px 2px 8px rgba(0,0,0,0.15);
+    }
+
+    #timg {
+
+      box-shadow: -2px -2px 8px rgba(255,255,255,1),
+                  -2px -2px 12px rgba(255,255,255,0.5),
+                  inset 2px 2px 4px rgba(255,255,255,0.1)
+                    ,
+                  2px 2px 8px rgba(0,0,0,0.15);
+
+    }
+
+    #button:hover {
+
+      box-shadow: inset -2px -2px 8px rgba(255,255,255,1),
+                  inset -2px -2px 12px rgba(255,255,255,0.5),
+                  inset 2px 2px 4px rgba(255,255,255,0.1)
+                    ,
+                 inset 2px 2px 8px rgba(0,0,0,0.15);
+
+    }
+
+    #ft {
+
+      box-shadow: -2px -2px 8px rgba(255,255,255,1),
+                  -2px -2px 12px rgba(255,255,255,0.5),
+                  inset 2px 2px 4px rgba(255,255,255,0.1)
+                    ,
+                  2px 2px 8px rgba(0,0,0,0.15);
+                  text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #5a84a2;
+      font-size:18px;
     }
 
     @keyframes type {
