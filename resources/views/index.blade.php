@@ -98,7 +98,7 @@
         Some of our recent works
     </h2>
     <p>
-    Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
+    Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse, we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
     </p> 
     <!--Carousel Wrapper-->
 <div id="carousel-example-2" class="carousel slide carousel-fade mb-5" data-ride="carousel">
