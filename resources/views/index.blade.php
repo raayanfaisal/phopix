@@ -17,7 +17,7 @@
 <!-- ======= End Hero Section ======= -->
 <!-- ======= About Section ======= -->
     <div class="row">
-        <div class="col-12 mt-5 pt-5">
+        <div class="col-12 mt-5 pt-5" id="abt">
             <h2>
                 Who are we?
             </h2>
