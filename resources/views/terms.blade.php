@@ -68,11 +68,11 @@ Company may revise these terms of use for its web site at any time without notic
   <!-- Footer Elements -->
   <div class="container">
     <div class="text-center mb-2">
-          <a href="" class="text-info">Privacy Policy |</a>
+          <a href="/privacy" class="text-info">Privacy Policy |</a>
 
-          <a href="" class="text-info">Terms and Condition's |</a>
+          <a href="/terms" class="text-info">Terms and Condition's |</a>
 
-          <a href="#" class="text-info">Back to Top </a>
+          <a href="/" class="text-info">Back to home </a>
       </div>
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
