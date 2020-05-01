@@ -51,7 +51,6 @@
 
       letter-spacing: 1px;
       font-family: 'Roboto', sans-serif;
-      font-weight: 500;
       letter-spacing: 2px;
       color: #5a84a2;
       font-size:18px;
@@ -64,7 +63,7 @@
 
 letter-spacing: 1px;
 font-family: 'Roboto', sans-serif;
-font-weight: 500;
+
 letter-spacing: 2px;
 color: #5a84a2;
 font-size:18px;
