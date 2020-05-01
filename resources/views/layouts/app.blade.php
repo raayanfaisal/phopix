@@ -32,18 +32,22 @@
     
     h1 {
         font-family: 'Oswald', sans-serif;
+        font-weight: 500px;
     }
     
     h2 {
         font-family: 'Oswald', sans-serif;
+        font-weight: 500px;
     }
     
     h3 {
         font-family: 'Oswald', sans-serif;
+        font-weight: 500px;
     }
     
     h4 {
         font-family: 'Oswald', sans-serif;
+        font-weight: 500px;
         
     }
 
