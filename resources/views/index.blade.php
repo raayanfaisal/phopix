@@ -9,6 +9,7 @@
             <h4 class="pt-4">
             Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>
             </h4>
+            <h5>recent web templates</h5>
             <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/demo%20website.JPG" alt="Recent work" width="100%" height="auto" class="mt-4" id="timg">
         </div>
     </div>
