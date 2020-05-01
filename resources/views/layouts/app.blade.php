@@ -27,19 +27,7 @@
 
       background-color: #F2F5F7;
     }
-    h1 {
-
-        animation: type 2s steps(17);
-        overflow: hidden;
-        white-space: nowrap;
-        border-right: 4px solid black;
-        font-family: consolas;
-        text-transform: uppercase;
-      font-weight: 500;
-      letter-spacing: 2px;
-      color: #5a84a2;
-      
-    }
+  
 
     p {
 
