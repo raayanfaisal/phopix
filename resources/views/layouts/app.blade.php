@@ -11,6 +11,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
     
 
@@ -21,18 +22,16 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="css/mdb.min.css">
-     <style>
+    <link rel="stylesheet" href="./dist/css/light/neumorph-full.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
     body {
 
       background-color: #F2F5F7;
     }
-  
 
     p {
 
-      
-      
       letter-spacing: 1px;
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
@@ -40,7 +39,20 @@
       color: #5a84a2;
       font-size:18px;
 
+    }
 
+    ul {
+
+      p {
+
+letter-spacing: 1px;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+letter-spacing: 2px;
+color: #5a84a2;
+font-size:18px;
+
+}
 
     }
 
@@ -51,8 +63,6 @@
       box-shadow:  10px 10px 22px #e1e4e6, 
                   -10px -10px 22px #ffffff;
       border: none;
-     
-      text-transform: uppercase;
       font-weight: 500;
       letter-spacing: 2px;
       color: #5a84a2;
@@ -110,12 +120,15 @@
     }
 
     #ft {
+
       background: #2e3f49;
       font-weight: 500;
       letter-spacing: 2px;
       color: #5a84a2;
       font-size:18px;
     }
+
+
 
     @keyframes type {
 
@@ -132,19 +145,19 @@
 </head>
 <body>
     <div id="app">
-        <header>
+        <header style="background-color: #F2F5F7;">
             <div class="container mt-5">
-            <nav class="navbar navbar-expand-lg navbar-light bg-#F2F5F7" style="">
-  <a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/hlogo.png" alt="logo" width="40px" height="40px"></a>
-  <a class="navbar-brand" href="#">PHOPIX</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-#F2F5F7" style="background-color: #F2F5F7;">
+  <a class="navbar-brand" href="#"><img src="/images/hlogo.png" alt="logo" width="40px" height="40px"></a>
+  <a class="navbar-brand" href="#">phopix</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#cd">Who We Are</a>
-      <a class="nav-item nav-link" href="#work">Portfolio</a>
+      <a class="nav-item nav-link" href="#">Who We Are</a>
+      <a class="nav-item nav-link" href="#">Portfolio</a>
       <a class="nav-item nav-link" href="/subscriptions">Subscriptions</a>
       <a class="nav-item nav-link" href="mailto:phopixofficial@gmail.com">Get in touch</a>
     </div>
