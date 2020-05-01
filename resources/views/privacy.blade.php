@@ -75,7 +75,7 @@ We may use the email address to send User information and updates pertaining to 
   <!-- Footer Elements -->
   <div class="container">
     <div class="text-center mb-2">
-          <a href="/privacy" class="text-info">Privacy Policy |</a>
+          <a href="" class="text-info">Privacy Policy |</a>
 
           <a href="" class="text-info">Terms and Condition's |</a>
 
@@ -85,22 +85,35 @@ We may use the email address to send User information and updates pertaining to 
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
-          <a href="https://www.facebook.com/Phopix-108547830842311/?modal=admin_todo_tour&notif_id=1588117275340198&notif_t=page_invite&ref=notif"><i class="fab fa-facebook-f" id="ci"></i></a>
+          <a href=""></a><i class="fab fa-facebook-f" id="ci"></i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-tw mx-1">
-          <a href="https://twitter.com/PhopixM"><i class="fab fa-twitter" id="ci"></i>
+          <i class="fab fa-twitter" id="ci"></i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-gplus mx-1">
-          <a href="https://www.instagram.com/phopix.mv/"><i class="fab fa-instagram" id="ci"></i></a>
+          <i class="fab fa-instagram" id="ci"></i>
         </a>
       </li>
     </ul>
     <!-- Social buttons -->
     
   </div>
+  <!-- Footer Elements -->
 
-@endsection
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">7815551 / 9682212
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="" style="" class="text-info"> phopix.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</div>
+<!-- ======= Service Section ======= -->
+<!-- ======= End About Section ======= -->
