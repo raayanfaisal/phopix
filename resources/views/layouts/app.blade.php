@@ -29,6 +29,23 @@
 
       background-color: #F2F5F7;
     }
+    
+    h1 {
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    h2 {
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    h3 {
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    h4 {
+        font-family: 'Oswald', sans-serif;
+        
+    }
 
     p {
 
