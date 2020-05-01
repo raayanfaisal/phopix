@@ -78,7 +78,7 @@
                             <h4 class="card-title">
                               Logo Designing 
                             </h4>
-                            <p>Custom logos that comply with modern trends and is memorable</p>
+                            <p>Custom logos that comply with modern trends and is upto your specs</p>
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@
                             <h4 class="card-title">
                               Website management
                             </h4>
-                            <p>We will manage your website like uploading picture and making corrections</p>
+                            <p>We will manage your website, uploading picture and making corrections</p>
                         </div>
                     </div>
                 </div>
