@@ -188,7 +188,7 @@
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g" id="ci"></i>
+          <i class="fab fa-instagram" id="ci"></i>
         </a>
       </li>
     </ul>
