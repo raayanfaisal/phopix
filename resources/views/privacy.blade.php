@@ -68,8 +68,7 @@ We may use the email address to send User information and updates pertaining to 
  By using this Site, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes. 
  </p>
  </div>
-@endsection
-<div class="container-fluid">
+ <div class="container-fluid">
 <!-- Footer -->
 <footer class="page-footer font-small special-color-dark pt-4" style="" id="ft"> 
 
@@ -103,3 +102,5 @@ We may use the email address to send User information and updates pertaining to 
     <!-- Social buttons -->
     
   </div>
+
+@endsection
