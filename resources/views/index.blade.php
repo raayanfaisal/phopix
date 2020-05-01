@@ -38,7 +38,7 @@
                             <h4 class="card-title">
                               Web design and development.
                             </h4>
-                            <p>This is a wider card supporting a imaghe</p>
+                            <p>we will design and build for you a high performance  website</p>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@
                             <h4 class="card-title">
                               Website Maintanance.
                             </h4>
-                            <p>This is a wider card supporting a imaghe</p>
+                            <p>We will maintain your existing website and keep it in running condition 24/7</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                             <h4 class="card-title">
                               Application development. 
                             </h4>
-                            <p>This is a wider card supporting a imaghe</p>
+                            <p>we will build apps that can run on both IOS and Android</p>
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@
                             <h4 class="card-title">
                               Social media page management.
                             </h4>
-                            <p>This is a wider card supporting a imaghe</p>
+                            <p>any platform with a affordable price</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             <h4 class="card-title">
                               Logo Designing 
                             </h4>
-                            <p>This is a wider card supporting a imaghe</p>
+                            <p>Custom logos that comply with modern trends and is memorable</p>
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@
                             <h4 class="card-title">
                               Website management
                             </h4>
-                            <p>This is a wider card supporting a imaghe</p>
+                            <p>We will manage your website like uploading picture and making corrections</p>
                         </div>
                     </div>
                 </div>
