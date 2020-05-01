@@ -156,7 +156,7 @@ font-size:18px;
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#abt">Who We Are</a>
+      <a class="nav-item nav-link" href="#abt">Who are we</a>
       <a class="nav-item nav-link" href="#carousel-example-2">Portfolio</a>
       <a class="nav-item nav-link" href="/subscriptions">Subscriptions</a>
       <a class="nav-item nav-link" href="mailto:info.phopix@gmail.com">Get in touch</a>
