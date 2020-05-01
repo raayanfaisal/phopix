@@ -170,7 +170,7 @@
     <div class="text-center mb-2">
           <a href="/privacy" class="text-info">Privacy Policy |</a>
 
-          <a href="" class="text-info">Terms and Condition's |</a>
+          <a href="/terms" class="text-info">Terms and Condition's |</a>
 
           <a href="#" class="text-info">Back to Top </a>
       </div>
