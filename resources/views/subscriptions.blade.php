@@ -68,34 +68,34 @@
 </div>
     </div>
 </div>
-<div class="container-fluid mt-5">
+<div class="container-fluid">
 <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4" style=" " id="ft"> 
+<footer class="page-footer font-small special-color-dark pt-4" style="" id="ft"> 
 
   <!-- Footer Elements -->
   <div class="container">
     <div class="text-center mb-2">
-          <a href="" class="">Privacy Policy |</a>
+          <a href="/privacy" class="text-info">Privacy Policy |</a>
 
-          <a href="" class="">Terms and Condition's |</a>
+          <a href="/terms" class="text-info">Terms and Condition's |</a>
 
-          <a href="https://forms.gle/5Ro8mnCCLcEfdZnq5" class="">Back to Top </a>
+          <a href="#" class="text-info">Back to Top </a>
       </div>
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"><a href="https://www.facebook.com/Phopix-108547830842311/?modal=admin_todo_tour&notif_id=1588117275340198&notif_t=page_invite&ref=notif"></a></i>
+          <a href="https://www.facebook.com/Phopix-108547830842311/?modal=admin_todo_tour&notif_id=1588117275340198&notif_t=page_invite&ref=notif"><i class="fab fa-facebook-f" id="ci"></i></a>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"><a href="https://www.instagram.com/phopix.mv/"></a></i>
+          <a href="https://twitter.com/PhopixM"><i class="fab fa-twitter" id="ci"></i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"><a href="https://twitter.com/PhopixM"></a></i>
+          <a href="https://www.instagram.com/phopix.mv/"><i class="fab fa-instagram" id="ci"></i></a>
         </a>
       </li>
     </ul>
@@ -105,12 +105,16 @@
   <!-- Footer Elements -->
 
   <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">7815551 / 9682212
+  </div>
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="" style="" class=""> Phopix.com</a>
+    <a href="" style="" class="text-info"> phopix.com</a>
   </div>
   <!-- Copyright -->
 
 </footer>
+<!-- Footer -->
+</div>
 <!-- Footer -->
 </div>
 @endsection
