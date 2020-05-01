@@ -159,7 +159,7 @@ font-size:18px;
       <a class="nav-item nav-link" href="#abt">Who We Are</a>
       <a class="nav-item nav-link" href="#carousel-example-2">Portfolio</a>
       <a class="nav-item nav-link" href="/subscriptions">Subscriptions</a>
-      <a class="nav-item nav-link" href="mailto:phopixofficial@gmail.com">Get in touch</a>
+      <a class="nav-item nav-link" href="mailto:info.phopix@gmail.com">Get in touch</a>
     </div>
   </div>
 </nav>
