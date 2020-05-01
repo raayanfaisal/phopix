@@ -168,7 +168,7 @@
   <!-- Footer Elements -->
   <div class="container">
     <div class="text-center mb-2">
-          <a href="" class="text-info">Privacy Policy |</a>
+          <a href="/privacy" class="text-info">Privacy Policy |</a>
 
           <a href="" class="text-info">Terms and Condition's |</a>
 
