@@ -20,7 +20,7 @@
     <li class="list-group-item" style="background-color: #F2F5F7;">Responsive Layout</li>
   </ul>
   <div class="card-body">
-  <a href="https://forms.gle/5Ro8mnCCLcEfdZnq5" class="btn" id="button">Choose plan</a>
+  <a href="https://forms.gle/QoqUikZYCKy9PrKd9" class="btn" id="button">Choose plan</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;" id="cd">
@@ -41,7 +41,7 @@
     <li class="list-group-item" style="background-color: #F2F5F7; ">responsive designs</li>
   </ul>
   <div class="card-body">
-    <a href="https://forms.gle/5Ro8mnCCLcEfdZnq5" class="btn " id="button">Choose plan</a>
+    <a href="https://forms.gle/QoqUikZYCKy9PrKd9" class="btn " id="button">Choose plan</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;" id="cd">
@@ -63,7 +63,7 @@
     <li class="list-group-item" style="background-color: #F2F5F7;">15 revisions</li>
   </ul>
   <div class="card-body">
-    <a href="https://forms.gle/5Ro8mnCCLcEfdZnq5" class="btn" id="button">Choose plan</a>
+    <a href="https://forms.gle/QoqUikZYCKy9PrKd9" class="btn" id="button">Choose plan</a>
   </div>
 </div>
     </div>
