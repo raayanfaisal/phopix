@@ -24,37 +24,17 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/light/neumorph-full.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
+   <style>
     body {
 
-      background-color: #ffffff;
-    }
-    
-    h1 {
-        font-family: 'Oswald', sans-serif;
-        font-weight: 500px;
-    }
-    
-    h2 {
-        font-family: 'Oswald', sans-serif;
-        font-weight: 500px;
-    }
-    
-    h3 {
-        font-family: 'Oswald', sans-serif;
-        font-weight: 500px;
-    }
-    
-    h4 {
-        font-family: 'Oswald', sans-serif;
-        font-weight: 500px;
-        
+      background-color: #F2F5F7;
     }
 
     p {
 
       letter-spacing: 1px;
       font-family: 'Roboto', sans-serif;
+      font-weight: 500;
       letter-spacing: 2px;
       color: #5a84a2;
       font-size:18px;
@@ -67,7 +47,7 @@
 
 letter-spacing: 1px;
 font-family: 'Roboto', sans-serif;
-
+font-weight: 500;
 letter-spacing: 2px;
 color: #5a84a2;
 font-size:18px;
@@ -78,10 +58,10 @@ font-size:18px;
 
     #cd {
 
-      border-radius: 50px;
-        background: #ffffff;
-        box-shadow:  20px 20px 60px #d9d9d9, 
-                     -20px -20px 60px #ffffff;
+      border-radius: 23px;
+      background: #F2F5F7;
+      box-shadow:  10px 10px 22px #e1e4e6, 
+                  -10px -10px 22px #ffffff;
       border: none;
       font-weight: 500;
       letter-spacing: 2px;
