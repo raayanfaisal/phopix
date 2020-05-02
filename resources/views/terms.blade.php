@@ -63,49 +63,6 @@ Company may revise these terms of use for its web site at any time without notic
 </div>
 <div class="container-fluid">
 <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4" style="" id="ft"> 
 
-  <!-- Footer Elements -->
-  <div class="container">
-    <div class="text-center mb-2">
-          <a href="/privacy" class="text-info">Privacy Policy |</a>
-
-          <a href="/terms" class="text-info">Terms and Condition's |</a>
-
-          <a href="/" class="text-info">Back to home </a>
-      </div>
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1">
-          <a href=""></a><i class="fab fa-facebook-f" id="ci"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter" id="ci"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-instagram" id="ci"></i>
-        </a>
-      </li>
-    </ul>
-    <!-- Social buttons -->
-    
-  </div>
-  <!-- Footer Elements -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center">7815551 / 9682212
-  </div>
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="" style="" class="text-info"> phopix.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
 </div>  
 @endsection
