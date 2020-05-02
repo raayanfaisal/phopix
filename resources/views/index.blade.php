@@ -2,8 +2,8 @@
 
 @section('content')
 <!-- ======= Hero Section ======= -->
-<div class="container pt-5 mt-5" style="background-color: #F2F5F7">
-    <div class="jumbotron">
+<div class="container" style="background-color: #F2F5F7">
+    <div class="jumbotron" style="background-color: #F2F5F8">
   <h1 class="display-4">Welcome to phopix</h1>
   <p class="lead">Making it, Simple</p>
   <hr class="my-4">
