@@ -9,6 +9,7 @@
   <hr class="my-4">
  
   <a class="btn btn-primary btn-lg" href="#wk" role="button">See our work</a>
+  <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/demo%20website.JPG" alt="template" width="100%" height="auto">
 </div>
 <!-- ======= End Hero Section ======= -->
 <!-- ======= About Section ======= -->
