@@ -3,17 +3,13 @@
 @section('content')
 <!-- ======= Hero Section ======= -->
 <div class="container pt-5 mt-5" style="background-color: #F2F5F7">
-    <div class="row">
-        <div class="col-12">
-            <h1><b>
-                Welcome to PhoPix.
-            </h1></b>
-            <h4 class="pt-4">
-            Phopix is a web development team based in the republic of Maldives . Currently we are a team of 5 young web developers , <b>Note Site under development</b>
-            </h4>
-            <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/demo%20website.JPG" alt="Recent work" width="100%" height="auto" class="mt-4" id="timg">
-        </div>
-    </div>
+    <div class="jumbotron">
+  <h1 class="display-4">Welcome to phopix</h1>
+  <p class="lead">Making it, Simple</p>
+  <hr class="my-4">
+ 
+  <a class="btn btn-primary btn-lg" href="#wk" role="button">See our work</a>
+</div>
 <!-- ======= End Hero Section ======= -->
 <!-- ======= About Section ======= -->
     <div class="row">
@@ -94,7 +90,7 @@
             </div>
         </div>
     </div>
-    <h2 class="pt-5 mb-5"><b>
+    <h2 class="pt-5 mb-5" id="wk"><b>
         Some of our recent works
     </h2></b>
     <p>
