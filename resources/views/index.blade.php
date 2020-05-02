@@ -13,16 +13,19 @@
         </p>
     </div>
 <!-- ======= End Hero Section ======= -->
-<!-- ======= End Hero Section ======= -->
+
+
 <!-- ======= About Section ======= -->
     <div class="row">
-        <div class="col-12 mt-5 pt-5" id="abt">
+        <div class="col-12" id="abt">
             <h2><b>
                 Who are we?
             </h2></b>
             <p>
             Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices
             </p>
+<!-- ======= End About Section ======= -->
+
 <!-- ======= Service Section ======= -->
             <h2 class="mt-4"><b>
                 Services we offer.
@@ -93,72 +96,36 @@
             </div>
         </div>
     </div>
+<!-- ======= End Services Section ======= -->
+
+<!-- ======= Begin Portfolio Section ======= -->
     <h2 class="pt-5 mb-5" id="wk"><b>
         Some of our recent works
     </h2></b>
-    <p>
-    Our work spans from Building high performance sites from scratch to rebuilding existing websites while our work is aesthetically diverse, we always strive to make it as user freindly as possible for the end user <b>note as we complete projects we will be adding them here
-    </p> 
-    <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade mb-5" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-    <li data-target="#carousel-example-2" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg  "
-          alt="First slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">[Website Address]</h3>
-        <p>First Project</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-          alt="Second slide">
-        <div class="mask rgba-black-strong"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">[Website Address]</h3>
-        <p>Second project</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-          alt="Third slide">
-        <div class="mask rgba-black-slight"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">[Website Address]</h3>
-        <p>Third Project</p>
-      </div>
-    </div>
-  </div>
-  <!--/.Slides-->
-  <!--Controls-->
-  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!--/.Controls-->
+    <div class="container-fluid pt-3">
+<div class="card-columns">
+<div class="card">
+<img class="card-img-top" style="width:100%; height: 200px;"/>
 </div>
-<!--/.Carousel Wrapper-->
+<div class="card">
+<img class="card-img-top" style="width:100%; height: 500px;"/>
+</div>
+<div class="card">
+<img class="card-img-top" style="width:100%; height: 300px;"/>
+</div>
+<div class="card">
+<img class="card-img-top" style="width:100%; height: 400px;"/>
+</div>
+<div class="card">
+<img class="card-img-top" style="width:100%; height: 400px;"/>
+</div>
+<div class="card">
+<img class="card-img-top" style="width:100%; height: 300px;"/>
+</div>
+<div class="card">
+<img class="card-img-top" style="width:100%; height: 500px;"/>
+</div>
+
 </div>
 <div class="container-fluid">
 <!-- Footer -->
