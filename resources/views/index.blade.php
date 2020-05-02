@@ -9,7 +9,7 @@
         <p class="lead">Making it, Simple</p>
         <hr class="my-4">
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">See our work!</a>
+            <a class="btn btn-primary btn-lg" href="#wk" role="button">See our work!</a>
         </p>
     </div>
 <!-- ======= End Hero Section ======= -->
