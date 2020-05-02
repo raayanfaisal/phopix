@@ -3,15 +3,16 @@
 @section('content')
 <!-- ======= Hero Section ======= -->
 <div class="container" style="background-color: #F2F5F7">
+    <!-- ======= Start Hero Section ======= -->
     <div class="jumbotron" style="background-color: #F2F5F8">
-  <h1 class="display-4">Welcome to phopix</h1>
-  <p class="lead">Making it, Simple</p>
-  <hr class="my-4">
- 
-  <a class="btn btn-primary btn-lg" href="#wk" role="button">See our work</a>
-  
-  <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/demo%20website.JPG" alt="template" width="100%" height="auto" class="mt-5">
-</div>
+        <h1 class="display-4" style="font-family: 'Roboto', sans-serif; font-weight: 900;">Welcome to phopix</h1>
+        <p class="lead">Making it, Simple</p>
+        <hr class="my-4">
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">See our work!</a>
+        </p>
+    </div>
+<!-- ======= End Hero Section ======= -->
 <!-- ======= End Hero Section ======= -->
 <!-- ======= About Section ======= -->
     <div class="row">
