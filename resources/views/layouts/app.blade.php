@@ -81,6 +81,8 @@ h1 {
           <a href="/terms" class="text-info">Terms and Condition's |</a>
 
           <a href="#" class="text-info">Back to Top </a>
+          
+          <a href="https://www.vecteezy.com/free-vector/web-development">|Web Development Vectors by Vecteezy</a>
       </div>
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
