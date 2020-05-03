@@ -18,130 +18,15 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    
   
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/light/neumorph-full.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <style>
-    body {
-
-      background-color: #F2F5F7;
-    }
-
-    p {
-
-      letter-spacing: 1px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 500;
-      letter-spacing: 2px;
-      color: #5a84a2;
-      font-size:18px;
-
-    }
-
-    ul {
-
-      p {
-
-letter-spacing: 1px;
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-letter-spacing: 2px;
-color: #5a84a2;
-font-size:18px;
-
-}
-
-    }
-
-    #cd {
-
-      border-radius: 23px;
-      background: #F2F5F7;
-      box-shadow:  10px 10px 22px #e1e4e6, 
-                  -10px -10px 22px #ffffff;
-      border: none;
-      font-weight: 500;
-      letter-spacing: 2px;
-      color: #5a84a2;
-      font-size:18px;
-    }
-
-    #cd:hover {
-
-      box-shadow: inset -2px -2px 8px rgba(255,255,255,1),
-                  inset -2px -2px 12px rgba(255,255,255,0.5),
-                  inset 2px 2px 4px rgba(255,255,255,0.1)
-                    ,
-                 inset 2px 2px 8px rgba(0,0,0,0.15);
-      background-color: #F2F5F7;
-
-    }
-
-    #button {
-
-      position: reletive;
-      display: inline-block;
-      padding: 10px 30px;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-weight: 500;
-      letter-spacing: 2px;
-      color: #5a84a2;
-      font-size:18px;
-      border-radius: 40px;
-      box-shadow: -2px -2px 8px rgba(255,255,255,1),
-                  -2px -2px 12px rgba(255,255,255,0.5),
-                  inset 2px 2px 4px rgba(255,255,255,0.1)
-                    ,
-                  2px 2px 8px rgba(0,0,0,0.15);
-    }
-
-    #timg {
-
-      box-shadow: -2px -2px 8px rgba(255,255,255,1),
-                  -2px -2px 12px rgba(255,255,255,0.5),
-                  inset 2px 2px 4px rgba(255,255,255,0.1)
-                    ,
-                  2px 2px 8px rgba(0,0,0,0.15);
-
-    }
-
-    #button:hover {
-
-      box-shadow: inset -2px -2px 8px rgba(255,255,255,1),
-                  inset -2px -2px 12px rgba(255,255,255,0.5),
-                  inset 2px 2px 4px rgba(255,255,255,0.1)
-                    ,
-                 inset 2px 2px 8px rgba(0,0,0,0.15);
-
-    }
-
-    #ft {
-
-      background: #2e3f49;
-      font-weight: 500;
-      letter-spacing: 2px;
-      color: #5a84a2;
-      font-size:18px;
-    }
-
-
-
-    @keyframes type {
-
-      0% {
-
-        width: 0ch;
-      }
-      100% {
-
-        width: 22ch;
-      }
-    }
-    </style>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" rel="stylesheet">
+   
 </head>
 <body>
     <div id="app">
