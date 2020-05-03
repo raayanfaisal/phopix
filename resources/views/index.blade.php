@@ -1,39 +1,55 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- ======= Hero Section ======= -->
-<div class="container" style="background-color: #F2F5F7">
-    <!-- ======= Start Hero Section ======= -->
-    <div class="jumbotron" style="background-color: #F2F5F8">
-        <h1 class="display-4" style="font-family: 'Roboto', sans-serif; font-weight: 900;">Welcome to phopix</h1>
-        <p class="lead">Making it, Simple</p>
-        <hr class="my-4">
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#wk" role="button">See our work!</a>
-        </p>
+<!========== Header Section End ==================>
+<section id="banner">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-6">
+         <h1><b>Welcome to phopix</b></h1>
+         <h3>Making it, Simple!</h3>
+       </div>
+       <div class="col-md-6">
+          <a href="https://www.vecteezy.com/free-vector/web-development"><img src="{{ asset('images/bg.png') }}" alt="vector" class="img-fluid mt-"></a>
+       </div>
+     </div>
+   </div>
+</section>
+<!========== Header Section End ==================>
+
+<!========== recent work Section End ==================>
+<section>
+    <div class="container">
+      <h2 class="text-center mt-5"><span class="border-bottom border-dark"><b>Our most Recent Work</b></span></h2>
+      <p></p>
     </div>
-<!-- ======= End Hero Section ======= -->
-
-
-<!-- ======= About Section ======= -->
-    <div class="row">
-        <div class="col-12" id="abt">
-            <h2><b>
-                Who are we?
-            </h2></b>
-            <p>
-            Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices
-            </p>
-<!-- ======= End About Section ======= -->
-
-<!-- ======= Service Section ======= -->
-            <h2 class="mt-4"><b>
-                Services we offer.
-            </h2></b>
-            <p>
-              Below are our services
-            </p>
-            <div class="">
+    <div class="card-deck mt-5 ml-5 mr-5">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="...">
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522273400909-fd1a8f77637e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80" class="card-img-top" alt="...">
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506770797561-3b22048d1a13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1292&q=80" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="text-center">
+    <a href="#" class="btn btn-primary btn-lg justify-content-center mt-5">See More</a>
+    </div>
+  </section>
+<!========== Recent work Section End ==================>
+<!========== About Us Section End ==================>
+<section>
+    <div class="container">
+      <h1 class="text-center"><b>Who are we ?</b></h1>
+        <p style="font-size: 20px">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices </p>
+    </div>
+</section>
+<!========== About Us Section End ==================>
+<section>
+  <div class="container">
+  <div class="">
                 <div class="card-group">
                     <div class="card m-2" style="" id="cd">
                         <div class="card-body">
@@ -96,41 +112,6 @@
             </div>
         </div>
     </div>
-<!-- ======= End Services Section ======= -->
-
-<!-- ======= Begin Portfolio Section ======= -->
-    <h2 class="pt-5 mb-5" id="wk"><b>
-        Some of our recent works
-    </h2></b>
-    <div class="container-fluid pt-3">
-<div class="card-columns">
-<div class="card">
-<img class="card-img-top" style="width:100%; height: 200px;"/>
-</div>
-<div class="card">
-<img class="card-img-top" style="width:100%; height: 500px;"/>
-</div>
-<div class="card">
-<img class="card-img-top" style="width:100%; height: 300px;"/>
-</div>
-<div class="card">
-<img class="card-img-top" style="width:100%; height: 400px;"/>
-</div>
-<div class="card">
-<img class="card-img-top" style="width:100%; height: 400px;"/>
-</div>
-<div class="card">
-<img class="card-img-top" style="width:100%; height: 300px;"/>
-</div>
-<div class="card">
-<img class="card-img-top" style="width:100%; height: 500px;"/>
-</div>
-
-</div>
-<div class="container-fluid">
-<!-- Footer -->
-
-</div>
-<!-- ======= Service Section ======= -->
-<!-- ======= End About Section ======= -->
+  </div>
+</section>
 @endsection
