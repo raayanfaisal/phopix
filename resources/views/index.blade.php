@@ -10,7 +10,7 @@
          <h3>Making it, Simple!</h3>
        </div>
        <div class="col-md-6">
-          <a href="https://www.vecteezy.com/free-vector/web-development"><img src="{{ asset('images/bg.png') }}" alt="vector" class="img-fluid mt-"></a>
+          <a href="https://www.vecteezy.com/free-vector/web-development"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/bg.png" alt="vector" class="img-fluid mt-"></a>
        </div>
      </div>
    </div>
