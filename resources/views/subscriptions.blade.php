@@ -81,7 +81,7 @@
       </tbody>
     </table>
     <div class="text-center">
-      <a href="" class="btn btn-primary btn-lg">Continue</a>
+      <a href="https://forms.gle/r972isyFUQhvdkAy6" class="btn btn-primary btn-lg">Continue</a>
     </div>
   </div>
 <section>
