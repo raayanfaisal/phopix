@@ -1,88 +1,58 @@
 @extends('layouts.app')
 
 @section('content')
-<section>
-  <div class="container">
-      <h3 class="text-center mt-5 mb-4">Choose the plan that is more suitable to you!</h3>
-      <table class="table mt-5">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Plan features</th>
-          <th scope="col">Basic Package</th>
-          <th scope="col">Plus Package</th>
-          <th scope="col">Premium package</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>No of page's</td>
-          <td>2</td>
-          <td>5</td>
-          <td>15</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Commercial Usage</td>
-          <td>yes</td>
-          <td>yes</td>
-          <td>yes</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>No of revisions</td>
-          <td>5</td>
-          <td>10</td>
-          <td>15</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>Web site maintanance</td>
-          <td>No</td>
-          <td>2 months</td>
-          <td>5 months</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>Custom logo</td>
-          <td>No</td>
-          <td>Yes</td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>Responsive layout</td>
-          <td>Yes</td>
-          <td>Yes</td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>design customization</td>
-          <td>No</td>
-          <td>Yes</td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>Website Updates</td>
-          <td>No</td>
-          <td>Yes</td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>E-Commerce Functionality</td>
-          <td>No</td>
-          <td>No</td>
-          <td>Yes</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="text-center">
-      <a href="https://forms.gle/r972isyFUQhvdkAy6" class="btn btn-primary btn-lg">Continue</a>
-    </div>
+<div class="container">
+   <div class="card-group mt-5">
+   <div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5><b>Basic plan</b></h5>
   </div>
-<section>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Upto 2 pages.</li>
+    <li class="list-group-item">Commercial usage</li>
+    <li class="list-group-item">No maintanance</li>
+    <li class="list-group-item">Responsive layout</li>
+    <li class="list-group-item">Upto 5 revisions</li>
+    <li class="list-group-item"><b>$50/month</b></li>
+    <li class="list-group-item"><b>$500/year</b></li>
+  </ul>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5><b>Plus plan</b></h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Upto 10 pages.</li>
+    <li class="list-group-item">Commercial usage</li>
+    <li class="list-group-item">Custom logo</li>
+    <li class="list-group-item">Website updates</li>
+    <li class="list-group-item">upto 2 month maintanance</li>
+    <li class="list-group-item">Responsive layout</li>
+    <li class="list-group-item">Design customization</li>
+    <li class="list-group-item"><b>$90/month</b></li>
+    <li class="list-group-item"><b>$1000/year</b></li>
+  </ul>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5><b>Premium plan</b></h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Upto 15 pages.</li>
+    <li class="list-group-item">Commercial usage</li>
+    <li class="list-group-item">Responsive layouts</li>
+    <li class="list-group-item">Upto 15 month maintance</li>
+    <li class="list-group-item">Design customization</li>
+    <li class="list-group-item">Website updates</li>
+    <li class="list-group-item">Custom logo</li>
+    <li class="list-group-item">E-Commerce Functions</li>
+    <li class="list-group-item"><b>$150/month</b></li>
+    <li class="list-group-item"><b>$1700/year</b></li>
+  </ul>
+</div>
+   </div>
+   <div class="text-center mt-5">
+     <a href="https://forms.gle/nw8qGu4n3gCEH1Mp9" class="btn btn-primary btn-lg">Continue</a>
+   </div>
+</div>
 @endsection
