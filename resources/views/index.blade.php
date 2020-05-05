@@ -6,7 +6,7 @@
    <div class="container">
      <div class="row">
        <div class="col-md-6">
-         <h1><b>Welcome to phopix</b></h1>
+         <h1><b>Welcome to PhoPix</b></h1>
          <h3>Making it, Simple!</h3>
        </div>
        <div class="col-md-6">
