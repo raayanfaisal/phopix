@@ -40,7 +40,7 @@
    <div class="text-center mt-5 mb-5">
      <h1 id="svs><b>Our Services</b></h1>
    </div> 
-   <div class="card-deck">
+<div class="card-deck">
       <div class="card">
         
         <div class="card-body">
