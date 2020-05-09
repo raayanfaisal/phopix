@@ -114,7 +114,7 @@
         <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" class="card-img-top" style="width:100%; height: 380px;"/>
         <div class="card-img-overlay text-center">
           <h5 class="card-title"><b>Morning League logo</b></h5>
-          <p class="card-text">logo designed for morning leaque football club by phopix</p>
+          <p class="card-text">logo designed for morning league football club by phopix</p>
           <p class="card-text">Completed on March 14 2020</p>
       </div>
     </div>
