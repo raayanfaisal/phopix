@@ -20,7 +20,7 @@
 <!========== About Us Section End =====================>
 <section>
     <div class="container">
-      <h1 class="text-center" id="wha"><b>Who are we ?</b></h1>
+      <h1 class="text-center" id="wha"><b>Who we are ?</b></h1>
         <p style="font-size: 20px">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices </p>
         <p style="font-size: 20px">Following the rules of UI/UX Design to design and develop high perfomance great looking websites for business purposes. Be it a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
     </div>
