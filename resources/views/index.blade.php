@@ -30,7 +30,7 @@
     <h2><b>We Gurantee!</b></h2>
   </div>
   <div class="container">
-      <p style="font-size: 20px">We at PhoPix Gurantee you the client 3 main things. Firstly 100% run time, Websites made by us will be in running condition 24/7 . Secondly we ensure security for our websites using 256bit encryption and CSRF token to ensure the security of the website and the users of the website and to ensure it stays ahead of the increasing dangers of the cyber world. Thirdly we gurantee our services will be fininshed on time.</p>     
+      <p style="font-size: 20px">We at PhoPix Gurantee the client 3 main things. Firstly 100% run time, Websites made by us will be in running condition 24/7 . Secondly we ensure security for our websites using 256bit encryption and CSRF token to ensure the security of the website and the users of the website and to ensure it stays ahead of the increasing dangers of the cyber world. Thirdly we gurantee our services will be fininshed on time.</p>     
   </div>
   </div>
 </section>
