@@ -8,7 +8,7 @@
        <div class="col-md-6">
          <h1><b>Welcome to phopix</b></h1>
          <h3>Making it, Simple!</h3>
-         <a href="#" class="btn btn-primary btn-large">See Our Work</a>
+         <a href="#ptf" class="btn btn-primary btn-large">See Our Work</a>
        </div>
        <div class="col-md-6">
           <a href="https://www.vecteezy.com/free-vector/web-development"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/bg.png" alt="vector" class="img-fluid mt-"></a>
@@ -22,7 +22,7 @@
     <div class="container">
       <h1 class="text-center" id="wha"><b>Who are we ?</b></h1>
         <p style="font-size: 20px">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices </p>
-        <p style="font-size: 20px">Following the rules of UI/UX Design to design and develop high perfomance great looking websites for any purpose. Weather it be a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
+        <p style="font-size: 20px">Following the rules of UI/UX Design to design and develop high perfomance great looking websites for any purpose. Be it a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
     </div>
 </section>
 <section>
@@ -30,7 +30,7 @@
     <h2><b>We Gurantee!</b></h2>
   </div>
   <div class="container">
-      <p style="font-size: 20px">We at PhoPix Gurantee you the client 3 main things. Firstly 100% run time, Websites made by us will be in running condition 24/7 . Secondly we guantantee security our websites uses 256bit encryption and CSRF token to ensure the security of the website and the users of the website and to ensure it stays ahead of the increasing dangers of the cyber world. Thirdly we gurantee our services will be fininshes on time.</p>     
+      <p style="font-size: 20px">We at PhoPix Gurantee you the client 3 main things. Firstly 100% run time, Websites made by us will be in running condition 24/7 . Secondly we ensure security for our websites using 256bit encryption and CSRF token to ensure the security of the website and the users of the website and to ensure it stays ahead of the increasing dangers of the cyber world. Thirdly we gurantee our services will be fininshed on time.</p>     
   </div>
   </div>
 </section>
