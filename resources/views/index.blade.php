@@ -98,6 +98,7 @@
 <div class="container mt-5">
 <div class="text-center mb-4">
     <h1><b>Portfolio</b></h1>
+    <p class="mb-5">Our work spans from building high-end websites from scratch to rebuilding existing websites. While our work is aestheticaslly diverse we always strive to make it as user freindly as possible for the end user .</p>
 </div>
 <div class="card-columns">
     <div class="card">
