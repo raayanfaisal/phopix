@@ -11,7 +11,7 @@
          <a href="#" class="btn btn-primary btn-large">See Our Work</a>
        </div>
        <div class="col-md-6">
-          <a href="https://www.vecteezy.com/free-vector/web-development"><img src="/images/bg.png" alt="vector" class="img-fluid mt-"></a>
+          <a href="https://www.vecteezy.com/free-vector/web-development"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/bg.png" alt="vector" class="img-fluid mt-"></a>
        </div>
      </div>
    </div>
@@ -20,7 +20,7 @@
 <!========== About Us Section End =====================>
 <section>
     <div class="container">
-      <h1 class="text-center"><b>Who are we ?</b></h1>
+      <h1 class="text-center" id="wha"><b>Who are we ?</b></h1>
         <p style="font-size: 20px">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices </p>
         <p style="font-size: 20px">Following the rules of UI/UX Design to design and develop high perfomance great looking websites for any purpose. Weather it be a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
     </div>
@@ -98,7 +98,7 @@
 <section>
 <div class="container mt-5">
 <div class="text-center mb-4">
-    <h1><b>Portfolio</b></h1>
+    <h1 id="ptf"><b>Portfolio</b></h1>
 </div>
 <div class="card-columns">
     <div class="card">
@@ -111,7 +111,7 @@
         <img src="" class="card-img-top" style="width:100%; height: 300px;"/>
     </div>
     <div class="card">
-        <img src="/images/Clogo.png" class="card-img-top" style="width:100%; height: 380px;"/>
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" class="card-img-top" style="width:100%; height: 380px;"/>
         <div class="card-img-overlay text-center">
           <h5 class="card-title"><b>Morning Leaque logo</b></h5>
           <p class="card-text">Logo designed and commisioned by PhoPix for Morning Leaque a football leaque by stelco.</p>
