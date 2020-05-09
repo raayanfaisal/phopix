@@ -22,7 +22,7 @@
     <div class="container">
       <h1 class="text-center" id="wha"><b>Who are we ?</b></h1>
         <p style="font-size: 20px">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices </p>
-        <p style="font-size: 20px">Following the rules of UI/UX Design to design and develop high perfomance great looking websites for any purpose. Be it a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
+        <p style="font-size: 20px">Following the rules of UI/UX Design to design and develop high perfomance great looking websites for business purposes. Be it a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
     </div>
 </section>
 <section>
@@ -114,7 +114,7 @@
         <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" class="card-img-top" style="width:100%; height: 380px;"/>
         <div class="card-img-overlay text-center">
           <h5 class="card-title"><b>Morning Leaque logo</b></h5>
-          <p class="card-text">Logo designed and commisioned by PhoPix for Morning Leaque a football leaque by stelco.</p>
+          <p class="card-text">logo designed for moring leaque football club by phopix</p>
           <p class="card-text">Completed on March 14 2020</p>
       </div>
     </div>
@@ -122,7 +122,11 @@
         <img src="" class="card-img-top" style="width:100%; height: 400px;"/>
     </div>
     <div class="card">
-        <img src="" class="card-img-top" style="width:100%; height: 300px;"/>
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.PNG" class="card-img-top" style="width:100%; height: 300px;"/>
+        <div class="card-img-overlay text-center">
+          <h5 class="card-title"><b>Wraps logo</b></h5>
+          <p class="card-text">Logo for wrapsmv<br>Completed on 9th may 2020</p>
+      </div>
     </div>
   </section>
 <!========== Recent work Section End ==================>
