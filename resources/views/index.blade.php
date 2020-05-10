@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/app.PNG" alt="Card image cap">
+        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/appdev.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><b>Application development</b></h5>
           <p class="card-text">Development of apps that support iOS and Android and windows and MacOS</p>
