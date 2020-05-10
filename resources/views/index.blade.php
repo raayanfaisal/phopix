@@ -42,7 +42,7 @@
    </div> 
    <div class="card-deck">
       <div class="card">
-        
+        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/web.PNG" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><b>Website design and development</b></h5>
           <p class="card-text">Designing and building custom high-end websites for any purpose</p>
@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="card">
-        
+        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/maintain.PNG" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><b>Website maintanance</b></h5>
           <p class="card-text">Maintanance of exisiting websites such as doing off site backup making sure its in running conditon 24/7</p>
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="card">
-        
+        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/app.PNG" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><b>Application development</b></h5>
           <p class="card-text">Development of apps that support iOS and Android and windows and MacOS</p>
@@ -69,7 +69,7 @@
 
   <div class="card-deck">
       <div class="card mt-5">
-        
+        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/social.PNG" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><b>Social media page management</b></h5>
           <p class="card-text">Managing of social media pages, like facebook, twitter, instagram</p>
@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="card mt-5">
-        
+        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/idea.PNG" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><b>Logo designing</b></h5>
           <p class="card-text">Designing of logos that meet your spec</p>
@@ -85,7 +85,7 @@
         </div>
       </div>
       <div class="card mt-5">
-        
+        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/update.PNG" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><b>Website management</b></h5>
           <p class="card-text">Manageing of exisiting websites, such as making corrections, uploading pictures.</p>
