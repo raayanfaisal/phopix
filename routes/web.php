@@ -29,6 +29,15 @@ Route::get('/terms', function () {
     return view('terms');
 });
 
+Route::get('contact', [
+    'uses' => 'ContactMessegeController@create'
+]);
+
+Route::post('contact', [
+    'uses' => 'ContactMessegeController@store',
+    'as' => 'contact.store'
+]);
+
 
 Auth::routes();
 
