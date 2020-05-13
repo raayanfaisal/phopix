@@ -42,6 +42,12 @@ h1 {
   border: none;
 }
 
+.invalid-feedback{
+    display: block;
+}
+
+
+
    </style>
 </head>
 <body>
@@ -60,7 +66,7 @@ h1 {
       <a class="nav-item nav-link" href="#wha">Who we are</a>
       
       <a class="nav-item nav-link" href="/subscriptions">Subscriptions</a>
-      <a class="nav-item nav-link" href="mailto:info.phopix@gmail.com">Get in touch</a>
+      <a class="nav-item nav-link" href="/contact">Get in touch</a>
     </div>
   </div>
 </nav>
