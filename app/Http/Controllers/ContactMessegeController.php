@@ -10,7 +10,7 @@ class ContactMessegeController extends Controller
 {
     public function create()
     {
-        return view('pages.contact');
+        return view('contact');
     }
 
     public function store(Request $request)
