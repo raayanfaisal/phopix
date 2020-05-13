@@ -21,7 +21,7 @@ class ContactMessegeController extends Controller
             'details' => 'required'
         ]);
 
-        Mail::send('emails.messege', [
+        Mail::send('messege', [
             'dts' => $request->details
         ], function ($mail) use($request) {
 
