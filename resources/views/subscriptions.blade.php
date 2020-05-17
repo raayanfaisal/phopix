@@ -7,7 +7,7 @@
         <div class="col-md-6">
           <h2 id="suu" class="text-white"><b>Calculate</b></h2>
           <p class="text-white">Calculate the cost of your desired service</p>
-          <p><small>Website maintanance and off-site backup cost is per month more info email us.</small></p>
+          <p class="text-white"><small>Website maintanance and off-site backup cost is per month more info email us.</small></p>
           <a href="#" class="btn btn-lg btn-primary">Continue</a>
         </div>
         <div class="col-md-6">
