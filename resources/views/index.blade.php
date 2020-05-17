@@ -145,7 +145,7 @@
         <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" class="card-img-top" style="width:100%; height: 200px;"/>
     </div>
     <div class="card">
-        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.png" class="card-img-top" style="width:100%; height: autopx;"/>
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.PNG" class="card-img-top" style="width:100%; height: autopx;"/>
     </div>
     <div class="card">
         <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/w3.png" class="card-img-top" style="width:auto; height: 500px;"/>
