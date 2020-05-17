@@ -54,7 +54,7 @@
       }
 
       #banner {
-        background-image: url("/images/backdrop.png");
+        background-image: url("https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/backdrop.png");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
