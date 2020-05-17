@@ -62,10 +62,10 @@ You are free to use the code in Commercial or non-commercial projects
  //The keys represent the size of the cake
  //The values represent the cost of the cake i.e A 10" cake cost's $35
  var cake_prices = new Array();
- cake_prices["Round6"]=20;
- cake_prices["Round8"]=25;
- cake_prices["Round10"]=35;
- cake_prices["Round12"]=75;
+ cake_prices["Round6"]=3000;
+ cake_prices["Round8"]=2500;
+ cake_prices["Round10"]=2000;
+ cake_prices["Round12"]=1500;
  
  //Set up an associative array 
  //The keys represent the filling type
@@ -73,18 +73,9 @@ You are free to use the code in Commercial or non-commercial projects
  //We use this this array when the user selects a filling from the form
  var filling_prices= new Array();
  filling_prices["None"]=0;
- filling_prices["Lemon"]=5;
- filling_prices["Custard"]=5;
- filling_prices["Fudge"]=7;
- filling_prices["Mocha"]=8;
- filling_prices["Raspberry"]=10;
- filling_prices["Pineapple"]=5;
- filling_prices["Dobash"]=9;
- filling_prices["Mint"]=5;
- filling_prices["Cherry"]=5;
- filling_prices["Apricot"]=8;
- filling_prices["Buttercream"]=7;
- filling_prices["Chocolate Mousse"]=12;
+ filling_prices["Lemon"]=2500;
+ filling_prices["Custard"]=2000;
+ filling_prices["Fudge"]=1500;
  
 	 
 	 
@@ -149,7 +140,7 @@ function candlesPrice()
     //If they checked the box set candlePrice to 5
     if(includeCandles.checked==true)
     {
-        candlePrice=5;
+        candlePrice=500;
     }
     //finally we return the candlePrice
     return candlePrice;
@@ -182,7 +173,7 @@ function calculateTotal()
     //display the result
     var divobj = document.getElementById('totalPrice');
     divobj.style.display='block';
-    divobj.innerHTML = "Total Price For the Cake $"+cakePrice;
+    divobj.innerHTML = "Total Price For your services MVR"+cakePrice;
 
 }
 
