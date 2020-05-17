@@ -55,12 +55,6 @@
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round12" onclick="calculateTotal()" />Portfolio Website</label><br/>
                 <br/>
 
-                <label >Off-site backup</label><br>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round6" onclick="calculateTotal()" />12 months</label><br/>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round8" onclick="calculateTotal()" />24 months</label><br/>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round10" onclick="calculateTotal()" />36 months</label><br/>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round12" onclick="calculateTotal()" />48 months</label><br/>
-                <br/>
                 <label >Maintanace</label><br>
          
                 <select id="filling" name='filling' onchange="calculateTotal()">
@@ -90,7 +84,7 @@
         </div>
     </div>
     <script>
-        /*
+     /*
 This source is shared under the terms of LGPL 3
 www.gnu.org/licenses/lgpl.html
 
@@ -101,16 +95,10 @@ You are free to use the code in Commercial or non-commercial projects
  //The keys represent the size of the cake
  //The values represent the cost of the cake i.e A 10" cake cost's $35
  var cake_prices = new Array();
- cake_prices["Round6"]=50000;
- cake_prices["Round8"]=30000;
- cake_prices["Round10"]=20000;
- cake_prices["Round12"]=15000;
-
- var backup = new Array();
- backup["Round6"]=3500;
- backup["Round8"]=3000;
- backup["Round10"]=2500;
- backup["Round12"]=2000;
+ cake_prices["Round6"]=21000;
+ cake_prices["Round8"]=16000;
+ cake_prices["Round10"]=13000;
+ cake_prices["Round12"]=11000;
  
  //Set up an associative array 
  //The keys represent the filling type
@@ -121,42 +109,12 @@ You are free to use the code in Commercial or non-commercial projects
  filling_prices["Lemon"]=2500;
  filling_prices["Custard"]=2000;
  filling_prices["Fudge"]=1500;
-
  
 	 
 	 
 // getCakeSizePrice() finds the price based on the size of the cake.
 // Here, we need to take user's the selection from radio button selection
 function getCakeSizePrice()
-{  
-    var cakeSizePrice=0;
-    //Get a reference to the form id="cakeform"
-    var theForm = document.forms["cakeform"];
-    //Get a reference to the cake the user Chooses name=selectedCake":
-    var selectedCake = theForm.elements["selectedcake"];
-    //Here since there are 4 radio buttons selectedCake.length = 4
-    //We loop through each radio buttons
-    for(var i = 0; i < selectedCake.length; i++)
-    {
-        //if the radio button is checked
-        if(selectedCake[i].checked)
-        {
-            //we set cakeSizePrice to the value of the selected radio button
-            //i.e. if the user choose the 8" cake we set it to 25
-            //by using the cake_prices array
-            //We get the selected Items value
-            //For example cake_prices["Round8".value]"
-            cakeSizePrice = cake_prices[selectedCake[i].value];
-            //If we get a match then we break out of this loop
-            //No reason to continue if we get a match
-            break;
-        }
-    }
-    //We return the cakeSizePrice
-    return cakeSizePrice;
-}
-
-function getBackUpPrice()
 {  
     var cakeSizePrice=0;
     //Get a reference to the form id="cakeform"
@@ -233,7 +191,7 @@ function insciptionPrice()
     var includeInscription = theForm.elements["includeinscription"];
     //If they checked the box set inscriptionPrice to 20
     if(includeInscription.checked==true){
-        inscriptionPrice=20;
+        inscriptionPrice=1000;
     }
     //finally we return the inscriptionPrice
     return inscriptionPrice;
@@ -243,12 +201,12 @@ function calculateTotal()
 {
     //Here we get the total price by calling our function
     //Each function returns a number so by calling them we add the values they return together
-    var cakePrice = getCakeSizePrice() + getBackUpPrice() + getFillingPrice() + candlesPrice() + insciptionPrice();
+    var cakePrice = getCakeSizePrice() + getFillingPrice() + candlesPrice() + insciptionPrice();
     
     //display the result
     var divobj = document.getElementById('totalPrice');
     divobj.style.display='block';
-    divobj.innerHTML = "Total Price in mvr"+cakePrice;
+    divobj.innerHTML = "Total Price For the Cake $"+cakePrice;
 
 }
 
