@@ -160,7 +160,7 @@
       #wrp {
 
         background-color: #303030;
-        height: 700px;
+        height: 600px;
         width: 550px;
       }
       </style>
