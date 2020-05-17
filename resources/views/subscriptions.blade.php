@@ -206,7 +206,7 @@ function calculateTotal()
     //display the result
     var divobj = document.getElementById('totalPrice');
     divobj.style.display='block';
-    divobj.innerHTML = "Total Price For the Cake $"+cakePrice;
+    divobj.innerHTML = "Total Price MVR"+cakePrice;
 
 }
 
