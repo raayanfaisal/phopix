@@ -74,9 +74,9 @@ You are free to use the code in Commercial or non-commercial projects
  //We use this this array when the user selects a filling from the form
  var filling_prices= new Array();
  filling_prices["None"]=0;
- filling_prices["Lemon"]=2500;
- filling_prices["Custard"]=2000;
- filling_prices["Fudge"]=1500;
+ filling_prices["Lemon"]=5000;
+ filling_prices["Custard"]=4000;
+ filling_prices["Fudge"]=3000;
  
 	 
 	 
