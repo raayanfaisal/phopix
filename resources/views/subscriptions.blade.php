@@ -22,14 +22,7 @@
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round10" onclick="calculateTotal()" />25 Pages</label><br/>
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round12" onclick="calculateTotal()" />30 Pages</label><br/>
                 <br/>
-
                 
-                <label >Type of website: </label><br>
-                <label class='radiolabel'><input type="radio"  name="webtype" value="Ec" onclick="calculateTotal()" />E-commerce</label><br/>
-                <label class='radiolabel'><input type="radio"  name="webtype" value="Cc" onclick="calculateTotal()" />Coperate</label><br/>
-                <label class='radiolabel'><input type="radio"  name="webtype" value="Bs" onclick="calculateTotal()" />Business</label><br/>
-                <label class='radiolabel'><input type="radio"  name="webtype" value="Pt" onclick="calculateTotal()" />Portfolio</label><br/>
-                <br/>
                 <label >Off-site backup / Maintanace: </label><br>
          
                 <select id="filling" name='filling' onchange="calculateTotal()">
@@ -86,9 +79,9 @@ You are free to use the code in Commercial or non-commercial projects
  //We use this this array when the user selects a filling from the form
  var filling_prices= new Array();
  filling_prices["None"]=0;
- filling_prices["Lemon"]=2500;
- filling_prices["Custard"]=2000;
- filling_prices["Fudge"]=1500;
+ filling_prices["Lemon"]=30000;
+ filling_prices["Custard"]=48000;
+ filling_prices["Fudge"]=50000;
 
  
 	 
@@ -183,7 +176,7 @@ function candlesPrice()
     //If they checked the box set candlePrice to 5
     if(includeCandles.checked==true)
     {
-        candlePrice=200;
+        candlePrice=500;
     }
     //finally we return the candlePrice
     return candlePrice;
