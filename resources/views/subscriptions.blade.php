@@ -22,6 +22,14 @@
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round10" onclick="calculateTotal()" />25 Pages</label><br/>
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round12" onclick="calculateTotal()" />30 Pages</label><br/>
                 <br/>
+
+                
+                <label >Type of website: </label><br>
+                <label class='radiolabel'><input type="radio"  name="webtype" value="Ec" onclick="calculateTotal()" />E-commerce</label><br/>
+                <label class='radiolabel'><input type="radio"  name="webtype" value="Cc" onclick="calculateTotal()" />Coperate</label><br/>
+                <label class='radiolabel'><input type="radio"  name="webtype" value="Bs" onclick="calculateTotal()" />Business</label><br/>
+                <label class='radiolabel'><input type="radio"  name="webtype" value="Pt" onclick="calculateTotal()" />Portfolio</label><br/>
+                <br/>
                 <label >Off-site backup / Maintanace: </label><br>
          
                 <select id="filling" name='filling' onchange="calculateTotal()">
@@ -65,6 +73,12 @@ You are free to use the code in Commercial or non-commercial projects
  cake_prices["Round8"]=2000;
  cake_prices["Round10"]=2500;
  cake_prices["Round12"]=3000;
+
+ var website = new Array();
+ website["Ec"]=30000;
+ website["Cc"]=20000;
+ website["Bs"]=15000;
+ website["Pt"]=8000;
  
  //Set up an associative array 
  //The keys represent the filling type
@@ -108,6 +122,35 @@ function getCakeSizePrice()
     }
     //We return the cakeSizePrice
     return cakeSizePrice;
+}
+
+function getWebsitePrice()
+{  
+    var cakeSizePrice=0;
+    //Get a reference to the form id="cakeform"
+    var theForm = document.forms["cakeform"];
+    //Get a reference to the cake the user Chooses name=selectedCake":
+    var selectedCake = theForm.elements["webtype"];
+    //Here since there are 4 radio buttons selectedCake.length = 4
+    //We loop through each radio buttons
+    for(var i = 0; i < selectedCake.length; i++)
+    {
+        //if the radio button is checked
+        if(selectedCake[i].checked)
+        {
+            //we set cakeSizePrice to the value of the selected radio button
+            //i.e. if the user choose the 8" cake we set it to 25
+            //by using the cake_prices array
+            //We get the selected Items value
+            //For example cake_prices["Round8".value]"
+            webPrice = website[selectedCake[i].value];
+            //If we get a match then we break out of this loop
+            //No reason to continue if we get a match
+            break;
+        }
+    }
+    //We return the cakeSizePrice
+    return webPrice;
 }
 
 //This function finds the filling price based on the 
@@ -168,7 +211,7 @@ function calculateTotal()
 {
     //Here we get the total price by calling our function
     //Each function returns a number so by calling them we add the values they return together
-    var cakePrice = getCakeSizePrice() + getFillingPrice() + candlesPrice() + insciptionPrice();
+    var cakePrice = getCakeSizePrice() + getFillingPrice() + candlesPrice() + insciptionPrice() + getWebsitePrice();
     
     //display the result
     var divobj = document.getElementById('totalPrice');
