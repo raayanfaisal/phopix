@@ -54,7 +54,7 @@
       }
 
       #banner {
-        background-image: url("https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/backdrop.png");
+        background-image: url("/images/backdrop.png");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -152,7 +152,7 @@
       }
 
       #cakeform {
-        margin-top: 310px;
+        margin-top: 200px;
         margin-left: 120px;
         padding-top: 115px;
       }
@@ -160,7 +160,7 @@
       #wrp {
 
         background-color: #303030;
-        height: 600px;
+        height: 700px;
         width: 550px;
       }
       </style>
