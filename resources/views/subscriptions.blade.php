@@ -62,10 +62,10 @@ You are free to use the code in Commercial or non-commercial projects
  //The keys represent the size of the cake
  //The values represent the cost of the cake i.e A 10" cake cost's $35
  var cake_prices = new Array();
- cake_prices["Round6"]=3000;
- cake_prices["Round8"]=2500;
- cake_prices["Round10"]=2000;
- cake_prices["Round12"]=1500;
+ cake_prices["Round6"]=1500;
+ cake_prices["Round8"]=2000;
+ cake_prices["Round10"]=2500;
+ cake_prices["Round12"]=3000;
  
  //Set up an associative array 
  //The keys represent the filling type
