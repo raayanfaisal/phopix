@@ -3,131 +3,155 @@
 @section('content')
 <!========== Header Section End ==================>
 <section id="banner">
-   <div class="container">
+   <div class="container" id="cont">
+     <header>
+          <div class="container mt-2">
+           <!-- Navbar-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3 mb-4">
+                    <div class="container">
+                  
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="#us">About</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="#porttext">Portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="/contact">Contact</a>
+                              </li>
+                            </ul>
+                        <span class="navbar-text">
+                      <img src="/images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
+                    </span>
+                  </div>
+                  </div>
+                </nav>
+            </div>
+        </header>
      <div class="row">
        <div class="col-md-6">
-         <h1><b>Welcome to phopix</b></h1>
-         <h3>Making it, Simple!</h3>
-         <a href="#ptf" class="btn btn-primary btn-large">See Our Work</a>
+         <h1 class="text-white"><b>Welcome to <span><b>PhoPix</b></span></b></h1>
+         <h3 class="text-white">Making it, Simple!</h3>
+         <a href="" class="btn btn-lg btn-primary text-white mt-3" id="button">See More</a>
        </div>
        <div class="col-md-6">
-          <a href="https://www.vecteezy.com/free-vector/web-development"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/bg.png" alt="vector" class="img-fluid mt-"></a>
        </div>
      </div>
    </div>
 </section>
 <!========== Header Section End ==================>
 <!========== About Us Section End =====================>
-<section>
-    <div class="container">
-      <h1 class="text-center" id="wha"><b>Who we are ?</b></h1>
-        <p style="font-size: 20px">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices </p>
-        <p style="font-size: 20px">Following the rules of UI/UX Design to design and develop high perfomance websites for business purposes, be it a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
-    </div>
-</section>
-<section>
-  <div class="text-center mt-5 pt-5" id="gh1">
-    <h2><b>We Gurantee!</b></h2>
-  </div>
+<section  id="us">
   <div class="container">
-      <p style="font-size: 20px">We at PhoPix Gurantee the client 3 main things. Firstly 100% run time, Websites made by us will be in running condition 24/7 . Secondly we ensure security for our websites using 256bit encryption and CSRF token to ensure the security of the website and the users of the website and to ensure it stays ahead of the increasing dangers of the cyber world. Thirdly we gurantee our services will be fininshed on time.</p>     
-  </div>
-  </div>
-</section>
-<!========== About Us Section End ==================>
-<section id="">
-  <div class="container">
-   <div class="text-center mt-5 mb-5">
-     <h1><b>Our Services</b></h1>
-   </div> 
-   <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/web.PNG" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><b>Website design and development</b></h5>
-          <p class="card-text">Designing and building custom high-end websites for any purpose</p>
-          
-        </div>
+    <div class="row">
+      <div class="col-md-6" id="su">
+        <h2 class="text-white mt-5" style="text-decoration: underline; "><b>ABOUT US</b></h2>
       </div>
-      <div class="card">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/maintain.PNG" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><b>Website maintanance</b></h5>
-          <p class="card-text">Maintanance of exisiting websites such as doing off site backup making sure its in running conditon 24/7</p>
-          
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/appdev.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><b>Application development</b></h5>
-          <p class="card-text">Development of apps that support iOS and Android and windows and MacOS</p>
-          
-        </div>
-      </div>
-  </div>
 
-  <div class="card-deck">
-      <div class="card mt-5">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/social.PNG" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><b>Social media page management</b></h5>
-          <p class="card-text">Managing of social media pages, like facebook, twitter, instagram</p>
-          
+      <div class="col-md-6" id="su">
+        <p class="text-white" style="font-size: 20px;">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6" id="su">
+        <h2 class="text-white mt-5" style="text-decoration: underline; "><b>WE GUARANTEE</b></h2>
+      </div>
+
+      <div class="col-md-6" id="su">
+        <p class="text-white" style="font-size: 20px;">Following the rules of UI/UX Design to design and develop high perfomance great looking websites for any purpose. Weather it be a E-Commerce website or a Portfolio website you can count on us to get the job done on time and at the same time with quality in mind.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!========== About Us Section End ==================>
+<section id="serv">
+  <div class="container">
+  <div class="row">
+      <div class="col-md-6">
+          <h2 class="text-white" id="service"><b>Our services</b></h2>
+          <p class="text-white" style="font-size: 20px">The services we offer are listed here and if you have any questions about them please contact us we will be happy to answer</p>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card-group">
+          <div class="card m-1" style="background-color: #0C0C0C; ">
+          <img src="/images/test.svg" alt="" width="100px" height="100px">
+            <div class="card-content">
+            <p class="text-white text-center">Web development</p>
+            </div>
+          </div>
+          <div class="card m-1" style="background-color: #0C0C0C; ">
+          <img src="/images/test.svg" alt="" width="100px" height="100px">
+            <div class="card-content">
+            <p class="text-white text-center">Logo designing</p>
+            </div>
+          </div>
+          <div class="card m-1" style="background-color: #0C0C0C; ">
+          <img src="/images/test.svg" alt="" width="100px" height="100px">
+            <div class="card-content">
+            <p class="text-white text-center">Application development</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group" >
+          <div class="card m-1" style="background-color: #0C0C0C; ">
+          <img src="/images/test.svg" alt="" width="100px" height="100px">
+            <div class="card-content">
+            <p class="text-white text-center">Website maintanance</p>
+            </div>
+          </div>
+          <div class="card m-1" style="background-color: #0C0C0C; ">
+          <img src="/images/test.svg" alt="" width="100px" height="100px">
+            <div class="card-content">
+            <p class="text-white text-center">Social media management</p>
+            </div>
+          </div>
+          <div class="card m-1" style="background-color: #0C0C0C; ">
+          <img src="/images/test.svg" alt="" width="100px" height="100px">
+            <div class="card-content">
+            <p class="text-white text-center">Web designing</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card mt-5">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/idea.PNG" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><b>Logo designing</b></h5>
-          <p class="card-text">Designing of logos that meet your spec</p>
-          
-        </div>
-      </div>
-      <div class="card mt-5">
-        <img class="card-img-top" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/update.PNG" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><b>Website management</b></h5>
-          <p class="card-text">Manageing of exisiting websites, such as making corrections, uploading pictures.</p>
-          
-        </div>
-      </div>
+    </div>
   </div>
 </section>
 <!========== recent work Section End ==================>
-<section>
-<div class="container mt-5">
-<div class="text-center mb-4">
-    <h1 id="ptf"><b>Portfolio</b></h1>
+<section id="port">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+        <h2 class="text-white" id="porttext"><b>OUR PORTFOLIO</b></h2>
+        <p class="text-white">Our work spans building high performance websites to managing your social media pages. While our work is aesthetically diverse, we always strive to make it as user freindly as possible for the end user.</p>
+        <a href="#" class="btn btn-primary btn-lg">See more</a>
+    </div>
+    <div class="col-md-6">
+    <div class="card-columns mt-5">
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" class="card-img-top" style="width:100%; height: 200px;"/>
+    </div>
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.png" class="card-img-top" style="width:100%; height: autopx;"/>
+    </div>
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/w3.png" class="card-img-top" style="width:auto; height: 500px;"/>
+    </div>
+  </div>
 </div>
-<div class="card-columns">
-    <div class="card">
-        <img src="" class="card-img-top" style="width:100%; height: 200px;"/>
-    </div>
-    <div class="card">
-        <img src="" class="card-img-top" style="width:100%; height: 500px;"/>
-    </div>
-    <div class="card">
-        <img src="" class="card-img-top" style="width:100%; height: 300px;"/>
-    </div>
-    <div class="card">
-        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" class="card-img-top" style="width:100%; height: 380px;"/>
-        <div class="card-img-overlay text-center">
-          <h5 class="card-title"><b>Morning League logo</b></h5>
-          <p class="card-text">logo designed for morning league football club by phopix</p>
-          <p class="card-text">Completed on March 14 2020</p>
-      </div>
-    </div>
-    <div class="card">
-        <img src="" class="card-img-top" style="width:100%; height: 400px;"/>
-    </div>
-    <div class="card">
-        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.PNG" class="card-img-top" style="width:100%; height: 300px;"/>
-        <div class="card-img-overlay text-center">
-          <h5 class="card-title"><b>Wraps logo</b></h5>
-          <p class="card-text">Logo for wrapsmv<br>Completed on 9th may 2020</p>
-      </div>
-    </div>
-  </section>
+</section>
 <!========== Recent work Section End ==================>
 @endsection
