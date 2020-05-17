@@ -2,57 +2,88 @@
 
 @section('content')
 <div class="container">
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3 mb-4">
+                    <div class="container">
+                  
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="#us">About</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="#porttext">Portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="/contact">Contact</a>
+                              </li>
+                            </ul>
+                        <span class="navbar-text">
+                      <img src="/images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
+                    </span>
+                  </div>
+                  </div>
+                </nav>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 id="suu" class="text-white"><b>Calculate</b></h2>
-          <p class="text-white">Calculate the cost of your desired service</p>
-          <p class="text-white"><small>Website maintanance and off-site backup cost is per month more info email us.</small></p>
-          <a href="#" class="btn btn-lg btn-primary">Continue</a>
-        </div>
-        <div class="col-md-6">
-          <div id="wrp">
-          <form action="" id="cakeform" onsubmit="return false;" class="text-white">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-white" id="suu">Price Calculator</h2>
+                <p class="text-white">Calculate prices of the services you require</p>
+                <a href="#" class="btn btn-lg btn-primary">Continue</a>
+            </div>
+
+            <div class="col-md-6">
+            <div id="wrp">
+            <form action="" class="text-white" id="cakeform" onsubmit="return false;">
         <div>
             <div class="cont_order">
                <fieldset>
-                <legend><b>Pick your options</b></legend>
-                <label >Number of pages: </label>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round6" onclick="calculateTotal()" />15 Pages</label><br/>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round8" onclick="calculateTotal()" />20 Pages</label><br/>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round10" onclick="calculateTotal()" />25 Pages</label><br/>
-                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round12" onclick="calculateTotal()" />30 Pages</label><br/>
+                <legend>Calculate the cost</legend>
+                <label >Type of website</label><br>
+                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round6" onclick="calculateTotal()" />E-Commerce Website</label><br/>
+                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round8" onclick="calculateTotal()" />Cooperate Website</label><br/>
+                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round10" onclick="calculateTotal()" />Business Website</label><br/>
+                <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round12" onclick="calculateTotal()" />Portfolio Website</label><br/>
                 <br/>
-                
-                <label >Off-site backup / Maintanace: </label><br>
+                <label >Maintanace</label><br>
          
                 <select id="filling" name='filling' onchange="calculateTotal()">
-                <option value="None">select your backup option</option>
-                <option value="Lemon">12 months</option>
-                <option value="Custard">24 months</option>
-                <option value="Fudge">36 months</option>
+                <option value="None">Select your option</option>
+                <option value="Lemon">12 months(2500/m)</option>
+                <option value="Custard">24 months(2000/m)</option>
+                <option value="Fudge">36 months(1500/m)</option>
                </select>
                 <br/>
                 <p>
-                <label for='includecandles' class="inlinelabel">Include Payment Gateway ( BML ): </label>
+                <label for='includecandles' class="inlinelabel">Database Management</label>
                <input type="checkbox" id="includecandles" name='includecandles' onclick="calculateTotal()" />
                </p>
                
                 <p>
-                <label class="inlinelabel" for='includeinscription'>Database Connection: </label>
+                <label class="inlinelabel" for='includeinscription'>Custom payment gateway</label>
                 <input type="checkbox" id="includeinscription" name="includeinscription" onclick="calculateTotal()" />
+                
                 </p>
-                <div id="totalPrice"><b></b></div>
+                <div id="totalPrice"></div>
                 
                 </fieldset>
             </div>
        </form>
        </div>
+            </div>
         </div>
-      </div>
     </div>
     <script>
-  /*
+        /*
 This source is shared under the terms of LGPL 3
 www.gnu.org/licenses/lgpl.html
 
@@ -63,10 +94,10 @@ You are free to use the code in Commercial or non-commercial projects
  //The keys represent the size of the cake
  //The values represent the cost of the cake i.e A 10" cake cost's $35
  var cake_prices = new Array();
- cake_prices["Round6"]=1500;
- cake_prices["Round8"]=2000;
- cake_prices["Round10"]=2500;
- cake_prices["Round12"]=3000;
+ cake_prices["Round6"]=50000;
+ cake_prices["Round8"]=30000;
+ cake_prices["Round10"]=20000;
+ cake_prices["Round12"]=15000;
  
  //Set up an associative array 
  //The keys represent the filling type
@@ -74,9 +105,10 @@ You are free to use the code in Commercial or non-commercial projects
  //We use this this array when the user selects a filling from the form
  var filling_prices= new Array();
  filling_prices["None"]=0;
- filling_prices["Lemon"]=5000;
- filling_prices["Custard"]=4000;
- filling_prices["Fudge"]=3000;
+ filling_prices["Lemon"]=2500;
+ filling_prices["Custard"]=2000;
+ filling_prices["Fudge"]=1500;
+
  
 	 
 	 
@@ -174,7 +206,7 @@ function calculateTotal()
     //display the result
     var divobj = document.getElementById('totalPrice');
     divobj.style.display='block';
-    divobj.innerHTML = "Total Price For your services MVR"+cakePrice;
+    divobj.innerHTML = "Total Price in mvr"+cakePrice;
 
 }
 
