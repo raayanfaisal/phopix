@@ -7,10 +7,10 @@
      <header>
           <div class="container mt-2">
            <!-- Navbar-->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3 mb-4">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mt-3 mb-4">
                     <div class="container">
                   
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="border-color: white;">
                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
@@ -32,7 +32,7 @@
                               </li>
                             </ul>
                         <span class="navbar-text">
-                      <img src="/images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
+                      <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
                     </span>
                   </div>
                   </div>
