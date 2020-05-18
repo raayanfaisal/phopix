@@ -88,19 +88,19 @@
       <div class="col-md-6">
         <div class="card-group">
           <div class="card m-1" style="background-color: #0C0C0C; ">
-          <img src="/images/test.svg" alt="" width="100px" height="100px">
+          <i class="fas fa-file-code fa-7x text-center text-white"></i>
             <div class="card-content">
             <p class="text-white text-center">Web development</p>
             </div>
           </div>
           <div class="card m-1" style="background-color: #0C0C0C; ">
-          <img src="/images/test.svg" alt="" width="100px" height="100px">
+          <i class="fas fa-palette fa-7x text-center text-white"></i>
             <div class="card-content">
             <p class="text-white text-center">Logo designing</p>
             </div>
           </div>
           <div class="card m-1" style="background-color: #0C0C0C; ">
-          <img src="/images/test.svg" alt="" width="100px" height="100px">
+          <i class="fas fa-mobile fa-7x text-center text-white"></i>
             <div class="card-content">
             <p class="text-white text-center">Application development</p>
             </div>
@@ -108,19 +108,19 @@
         </div>
         <div class="card-group" >
           <div class="card m-1" style="background-color: #0C0C0C; ">
-          <img src="/images/test.svg" alt="" width="100px" height="100px">
+          <i class="fas fa-server fa-7x text-center text-white"></i>
             <div class="card-content">
             <p class="text-white text-center">Website maintanance</p>
             </div>
           </div>
           <div class="card m-1" style="background-color: #0C0C0C; ">
-          <img src="/images/test.svg" alt="" width="100px" height="100px">
+          <i class="fab fa-facebook-square fa-7x text-center text-white"></i>
             <div class="card-content">
             <p class="text-white text-center">Social media management</p>
             </div>
           </div>
           <div class="card m-1" style="background-color: #0C0C0C; ">
-          <img src="/images/test.svg" alt="" width="100px" height="100px">
+          <i class="fab fa-html5 fa-7x text-center text-white"></i>
             <div class="card-content">
             <p class="text-white text-center">Web designing</p>
             </div>
