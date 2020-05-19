@@ -43,7 +43,7 @@
        <div class="col-md-6">
          <h1 class="text-white"><b>Welcome to <span><b>PhoPix</b></span></b></h1>
          <h3 class="text-white">Making it, Simple!</h3>
-         <a href="" class="btn btn-lg btn-primary text-white mt-3" id="button">See More</a>
+         <a href="#su" class="btn btn-lg btn-primary text-white mt-3" id="button">See More</a>
        </div>
        <div class="col-md-6">
        </div>
@@ -137,7 +137,7 @@
     <div class="col-md-6">
         <h2 class="text-white" id="porttext"><b>OUR PORTFOLIO</b></h2>
         <p class="text-white">Our work spans building high performance websites to managing your social media pages. While our work is aesthetically diverse, we always strive to make it as user freindly as possible for the end user.</p>
-        <a href="#" class="btn btn-primary btn-lg">See more</a>
+        <a href="/work" class="btn btn-primary btn-lg">See more</a>
     </div>
     <div class="col-md-6">
     <div class="card-columns mt-5">
