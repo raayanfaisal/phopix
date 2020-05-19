@@ -20,7 +20,7 @@
                                 <a class="nav-link text-white" href="">About</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link text-white" href="#porttext">Portfolio</a>
+                                <a class="nav-link text-white" href="/work">Portfolio</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
