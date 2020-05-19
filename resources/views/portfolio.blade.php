@@ -76,7 +76,7 @@
         <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/w3.png" class="card-img-top" style="width:100%; height: autopx;" id="w1"/>
         <div class="card-img-overlay text-center">
           <h5 class="card-title"><b>Website name</b></h5>
-          <p class="card-text">Website for so and so Completed on May 7th 2020</p>
+          <p class="card-text">On-Going Project</p>
           
         </div>
     </div>
