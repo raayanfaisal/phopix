@@ -28,7 +28,7 @@
                               </li>
                             </ul>
                         <span class="navbar-text">
-                      <img src="/images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
+                      <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/09d902f0b40e028a96bec8b152cf85b5d3b16615/public/Images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
                     </span>
                   </div>
                   </div>
