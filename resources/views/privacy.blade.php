@@ -2,6 +2,41 @@
 
 @section('content')
 <div class="container">
+<header>
+          <div class="container mt-2">
+           <!-- Navbar-->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mt-3 mb-4 text-white">
+                    <div class="container">
+                  
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="border-color: white;">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link text-white" href="/">Home <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="">About</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="#porttext">Portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="/contact">Contact</a>
+                              </li>
+                            </ul>
+                        <span class="navbar-text">
+                      <img src="/images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
+                    </span>
+                  </div>
+                  </div>
+                </nav>
+            </div>
+        </header>
  <h1 class="text-center mt-5 mb-5">
     Privacy Policy
  </h1>
