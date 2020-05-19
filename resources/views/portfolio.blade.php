@@ -64,7 +64,7 @@
         <img src="" class="card-img-top" style="width:100%; height: 300px;"/>
     </div>
     <div class="card filterDiv logo">
-        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.PNG" class="card-img-top" style="width:100%; height: autopx;"/>
+        <img src="https://instagram.fmle2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/96549579_888278008263876_4272797761444773888_n.jpg?_nc_ht=instagram.fmle2-1.fna.fbcdn.net&amp;_nc_ohc=C1pDlL9iGBgAX9-5QKu&amp;oh=59405f9988e9065229a1a126b4ffe596&amp;oe=5EEBADB4" class="card-img-top" style="width:100%; height: autopx;"/>
     </div>
     <div class="card filterDiv">
         <img class="card-img-top" style="width:100%; height: 200px;"/>
