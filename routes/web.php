@@ -21,6 +21,11 @@ Route::get('/subscriptions', function () {
         return view('subscriptions');     
 });
 
+
+Route::get('/work', function () {
+        return view('portfolio');     
+});
+
 Route::get('/privacy', function () {
     return view('privacy');
 });
