@@ -30,7 +30,7 @@
                               </li>
                             </ul>
                         <span class="navbar-text">
-                      <img src="/images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
+                      <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
                     </span>
                   </div>
                   </div>
@@ -50,7 +50,7 @@
         <img src="" class="card-img-top" style="width:100%; height: 300px;"/>
     </div>
     <div class="card filterDiv logo">
-        <img src="/images/Clogo.png" class="card-img-top" style="width:100%; height: autopx;"/>
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" class="card-img-top" style="width:100%; height: autopx;"/>
         <div class="card-img-overlay text-center">
           <h5 class="card-title"><b>Morning Leaque logo</b></h5>
           <p class="card-text">Logo designed and commisioned by PhoPix for Morning Leaque a football leaque by stelco.</p>
@@ -64,7 +64,7 @@
         <img src="" class="card-img-top" style="width:100%; height: 300px;"/>
     </div>
     <div class="card filterDiv logo">
-        <img src="/images/C2logo.png" class="card-img-top" style="width:100%; height: autopx;"/>
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.PNG" class="card-img-top" style="width:100%; height: autopx;"/>
     </div>
     <div class="card filterDiv">
         <img class="card-img-top" style="width:100%; height: 200px;"/>
@@ -73,7 +73,7 @@
         <img src="" class="card-img-top" style="width:100%; height: 200px;"/>
     </div>
     <div class="card filterDiv web">
-        <img src="/images/w3.png" class="card-img-top" style="width:100%; height: autopx;" id="w1"/>
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/w3.png" class="card-img-top" style="width:100%; height: autopx;" id="w1"/>
         <div class="card-img-overlay text-center">
           <h5 class="card-title"><b>Website name</b></h5>
           <p class="card-text">Website for so and so Completed on May 7th 2020</p>
