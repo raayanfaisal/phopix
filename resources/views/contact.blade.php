@@ -14,7 +14,7 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                <a class="nav-link text-white" href="/">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link text-white" href="/">Home</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link text-white" href="">About</a>
@@ -26,7 +26,7 @@
                                 <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link text-white" href="/contact">Contact</a>
+                                <a class="nav-link text-white" href="/contact">Contact <span class="sr-only">(current)</span></a>
                               </li>
                             </ul>
                         <span class="navbar-text">
