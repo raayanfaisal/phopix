@@ -6,38 +6,29 @@
    <div class="container" id="cont">
      <header>
           <div class="container mt-2">
-           <!-- Navbar-->
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mt-3 mb-4">
-                    <div class="container">
-                  
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="border-color: white;">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#us">About</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#porttext">Portfolio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/contact">Contact</a>
-                              </li>
-                            </ul>
-                        <span class="navbar-text">
-                      <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
-                    </span>
-                  </div>
-                  </div>
-                </nav>
+                
+            <header>
+          <div class="container">
+            <span class="menu-icon openbtn" onclick="openMenu()"><i class="fas fa-bars"></i></span>
+     
+         
+        
+          </div>
+
+          <div class="menu-container" id="navbar">
+            <span class="closebtn" onclick="closeMenu()"><i class="fas fa-times-circle"></i></span>
+                <img src="/images/phopix.svg" alt="phopix" width="100px" height="100px" class="phologo">
+            <div class="menu-content">
+              <h5>MENU</h5>
+              <a href="">HOME</a>
+              <a href="">ABOUT</a>
+              <a href="">PORTFOLIO</a>
+              <a href="">SERVICES</a>
+              <a href="">CONTACT</a>
+                
             </div>
+
+          </div>
         </header>
      <div class="row">
        <div class="col-md-6">
