@@ -3,5 +3,5 @@ function closeMenu(){
 }
 
 function openMenu(){
-  document.getElementById("navbar").style.height = "1000px";
+  document.getElementById("navbar").style.height = "880px";
 }
