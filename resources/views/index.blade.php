@@ -20,11 +20,10 @@
                 <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phopix.svg" alt="phopix" width="100px" height="100px" class="phologo">
             <div class="menu-content">
               <h5>MENU</h5>
-              <a href="">HOME</a>
-              <a href="">ABOUT</a>
-              <a href="">PORTFOLIO</a>
-              <a href="">SERVICES</a>
-              <a href="">CONTACT</a>
+              <a href="/">HOME</a>
+              <a href="#su">ABOUT</a>
+              <a href="/work">PORTFOLIO</a>
+              <a href="/contact">CONTACT</a>
                 
             </div>
 
