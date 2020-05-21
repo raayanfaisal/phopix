@@ -38,7 +38,7 @@
             </div>
         </header>
         <h2 class="text-center text-white"><b>PORTFOLIO</b></h2>
-        <p class="text-center text-white mb-5">A full description of our work</p>
+        <p class="text-center text-white mb-5">Click on a picture to get more information.</p>
 <div class="card-columns m-5">
     <div class="card filterDiv">
         <img src="" class="card-img-top" style="width:100%; height: 200px;"/>
