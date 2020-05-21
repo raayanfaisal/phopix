@@ -163,6 +163,11 @@
         height: 700px;
         width: 550px;
       }
+      
+      #w3 {
+        margin-top: 490px;
+        color: white;
+      }
       </style>
 </head>
 <body>
