@@ -47,6 +47,11 @@ Route::get('/work1', function () {
     return view('w1');
 });
 
+Route::get('/work2', function () {
+    return view('w2');
+});
+
+
 Auth::routes();
 
 Route::get('/index', 'ContactController@index');
