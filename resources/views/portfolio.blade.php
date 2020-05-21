@@ -75,8 +75,7 @@
     <div class="card filterDiv web">
         <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/w3.png" class="card-img-top" style="width:100%; height: autopx;" id="w1"/>
         <div class="card-img-overlay text-center">
-          <h5 class="card-title"><b>Website name</b></h5>
-          <p class="card-text">On-Going Project</p>
+          <a href="/work1" class="btn btn-lg btn-primary text-white mt-3" id="button">See More</a>
           
         </div>
     </div>
