@@ -145,4 +145,5 @@
 </div>
 </section>
 <!========== Recent work Section End ==================>
+<script src="{{ asset('js/nav.js') }}"></script>
 @endsection
