@@ -14,19 +14,7 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                <a class="nav-link text-white" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#us">About</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#porttext">Portfolio <span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/contact">Contact</a>
+                                <a class="nav-link text-white" href="/"><i class="fas fa-arrow-circle-left fa-4x"></i></a>
                               </li>
                             </ul>
                         <span class="navbar-text">
