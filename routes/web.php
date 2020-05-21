@@ -51,6 +51,10 @@ Route::get('/work2', function () {
     return view('w2');
 });
 
+Route::get('/work3', function () {
+    return view('w3');
+});
+
 
 Auth::routes();
 
