@@ -94,7 +94,7 @@
       }
 
       #cont {
-        width: 2960px;
+        width: 100%;
         height: 950px;
       }
 
