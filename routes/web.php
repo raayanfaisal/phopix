@@ -43,6 +43,9 @@ Route::post('contact', [
     'as' => 'contact.store'
 ]);
 
+Route::get('/work1', function () {
+    return view('w1');
+});
 
 Auth::routes();
 
