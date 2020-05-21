@@ -17,7 +17,7 @@
 
           <div class="menu-container" id="navbar">
             <span class="closebtn" onclick="closeMenu()"><i class="fas fa-times-circle"></i></span>
-                <img src="/images/phopix.svg" alt="phopix" width="100px" height="100px" class="phologo">
+                <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phopix.svg" alt="phopix" width="100px" height="100px" class="phologo">
             <div class="menu-content">
               <h5>MENU</h5>
               <a href="">HOME</a>
