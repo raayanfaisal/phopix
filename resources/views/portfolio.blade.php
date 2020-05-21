@@ -62,7 +62,7 @@
         <img src="" class="card-img-top" style="width:100%; height: 300px;"/>
     </div>
     <div class="card filterDiv logo">
-        <a href="/work3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.png" class="card-img-top" style="width:100%; height: autopx;"/>
+        <a href="/work3"><img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.PNG" class="card-img-top" style="width:100%; height: autopx;"/>
     </div>
     <div class="card filterDiv">
         <img class="card-img-top" style="width:100%; height: 200px;"/>
