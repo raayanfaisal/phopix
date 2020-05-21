@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 <header>
-          <div class="container mt-2">
+          <div class="container mt-2 text-white">
            <!-- Navbar-->
                     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mt-3 mb-4 text-white">
                     <div class="container">
