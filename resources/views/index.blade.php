@@ -11,10 +11,10 @@
 
     <!-- Overlay content -->
     <div class="overlay-content">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">PORTFOLIO</a>
-      <a href="#">CONTACT</a>
+      <a href="/">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#port">PORTFOLIO</a>
+      <a href="/contact">CONTACT</a>
       <!-- Default checked -->
     </div>
 
@@ -68,7 +68,7 @@
       <div class="row">
           <div class="col-md-6 about-section">
             <div class="about-heading">
-              <h2 data-aos="fade-right">ABOUT US</h2>
+              <h2 id="about" data-aos="fade-right">ABOUT US</h2>
             </div>
             <div class="about-text">
               <p data-aos="fade-right">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices.</p>
@@ -138,7 +138,7 @@
 <div class="col-md-12 d-flex justify-content-center mb-5">
 
   <div class="portfolio">
-    <h2>PORTFOLIO</h2>
+    <h2 id="port">PORTFOLIO</h2>
   </div>
 
   <p></p>
