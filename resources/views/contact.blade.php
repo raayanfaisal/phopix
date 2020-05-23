@@ -3,40 +3,27 @@
 @section('content')
     <div class="container">
     <header>
-          <div class="container mt-2">
-           <!-- Navbar-->
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mt-3 mb-4 text-white">
-                    <div class="container">
-                  
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="border-color: white;">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                <a class="nav-link text-white" href="/">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="">About</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#porttext">Portfolio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/contact">Contact <span class="sr-only">(current)</span></a>
-                              </li>
-                            </ul>
-                        <span class="navbar-text">
-                      <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/09d902f0b40e028a96bec8b152cf85b5d3b16615/public/Images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
-                    </span>
-                  </div>
-                  </div>
-                </nav>
-            </div>
-        </header>
+     <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">PORTFOLIO</a>
+      <a href="#">CONTACT</a>
+      <!-- Default checked -->
+    </div>
+
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
+    <img src="/images/phopix.svg" alt="phopix-logo" width="60px" height="60px" class="pull-right mt-2">
+  </header>
         <div class="row">
             <div class="col-md-6">
                 <!====check and give success messege===>
@@ -48,7 +35,7 @@
                   {{ csrf_field() }}
 
                   <div class="form-group">
-                      <label class="text-white">Full name:</label>
+                      <label class="">Full name:</label>
                       <input type="text" class="form-control" id="txtbox" name="name" placeholder="ahmed">
                       <!====Validation===>
                       @if ($errors->has('name'))
@@ -57,7 +44,7 @@
                   </div>
 
                   <div class="form-group">
-                      <label class="text-white">E-mail</label>
+                      <label class="">E-mail</label>
                       <input type="text" class="form-control" id="txtbox" name="email" placeholder="example@gmail.com">
                       <!====Validation===>
                       @if ($errors->has('email'))
@@ -66,7 +53,7 @@
                   </div>
 
                   <div class="form-group">
-                      <label class="text-white">messege:</label>
+                      <label class="">messege:</label>
                       <textarea name="details" class="form-control" id="txtbox" cols="30" rows="10" name="details"></textarea>
                       <!====Validation===>
                       @if ($errors->has('details'))
@@ -82,5 +69,6 @@
               
             </div>
         </div>
+        <script src="{{ asset('js/nav.js') }}"></script>
     </div>
 @endsection
