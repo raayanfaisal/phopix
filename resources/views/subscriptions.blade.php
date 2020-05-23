@@ -2,48 +2,39 @@
 
 @section('content')
 <div class="container">
-    <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3 mb-4">
-                    <div class="container">
-                  
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#us">About</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#porttext">Portfolio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/subscriptions">Get a quote</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="/contact">Contact</a>
-                              </li>
-                            </ul>
-                        <span class="navbar-text">
-                      <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/09d902f0b40e028a96bec8b152cf85b5d3b16615/public/Images/phopix.svg" alt="Logo" width="100px" height="100px" style="border-radius: 50%">
-                    </span>
-                  </div>
-                  </div>
-                </nav>
+<header>
+     <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">PORTFOLIO</a>
+      <a href="#">CONTACT</a>
+      <!-- Default checked -->
+    </div>
+
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
+    <img src="/images/phopix.svg" alt="phopix-logo" width="60px" height="60px" class="pull-right mt-2">
+  </header>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h2 class="text-white" id="suu">Price Calculator</h2>
-                <p class="text-white">Calculate prices of the services you require</p>
+            <div class="col-md-6 heading-counter">
+                <h2 class="" id="suu">Price Calculator</h2>
+                <p class="">Calculate prices of the services you require</p>
                 <a href="#" class="btn btn-lg btn-primary">Continue</a>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 calculator-price">
             <div id="wrp">
-            <form action="" class="text-white" id="cakeform" onsubmit="return false;">
+            <form action="" class="" id="cakeform" onsubmit="return false;">
         <div>
             <div class="cont_order">
                <fieldset>
@@ -75,6 +66,7 @@
                 
                 </p>
                 <div id="totalPrice"></div>
+                <div id="usDollar"></div>
                 
                 </fieldset>
             </div>
@@ -202,11 +194,16 @@ function calculateTotal()
     //Here we get the total price by calling our function
     //Each function returns a number so by calling them we add the values they return together
     var cakePrice = getCakeSizePrice() + getFillingPrice() + candlesPrice() + insciptionPrice();
+    var usd = cakePrice / 15.42;
     
     //display the result
     var divobj = document.getElementById('totalPrice');
     divobj.style.display='block';
-    divobj.innerHTML = "Total Price MVR"+cakePrice;
+    divobj.innerHTML = "Total Price in MVR"+cakePrice;
+    
+    var divobj = document.getElementById('usDollar');
+    divobj.style.display='block';
+    divobj.innerHTML = "Total Price in USD"+usd;
 
 }
 
@@ -214,6 +211,18 @@ function hideTotal()
 {
     var divobj = document.getElementById('totalPrice');
     divobj.style.display='none';
+    
+    var divobj = document.getElementById('usDollar');
+    divobj.style.display='none';
+}
+
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
 }
     </script>
 </div>
