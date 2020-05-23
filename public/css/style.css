@@ -336,3 +336,12 @@ label {
   color: var(--para);
 }
 
+.heading-counter {
+  margin-top: 300px;
+  color: var(--para);
+}
+
+.calculator-price {
+  color: var(--para);
+  margin-top: 200px;
+}
