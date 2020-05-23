@@ -11,10 +11,10 @@
 
     <!-- Overlay content -->
     <div class="overlay-content">
-      <a href="#">HOME</a>
+      <a href="/">HOME</a>
       <a href="#">ABOUT</a>
       <a href="#">PORTFOLIO</a>
-      <a href="#">CONTACT</a>
+      <a href="/contact">CONTACT</a>
       <!-- Default checked -->
     </div>
 
