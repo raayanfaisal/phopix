@@ -180,13 +180,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Terms and Condition</a>
+            <a href="/terms">Terms and Condition</a>
           </li>
           <li>
-            <a href="#!">Privacy Policy</a>
+            <a href="/privacy">Privacy Policy</a>
           </li>
           <li>
-            <a href="#!">Back to top</a>
+            <a href="/">Back to top</a>
           </li>
           <li>
           <button type="button" class="btn" data-toggle="modal" data-target="#myModal"><i class="fas fa-sliders-h fa-2x"></i></button>
