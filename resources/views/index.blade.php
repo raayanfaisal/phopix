@@ -123,7 +123,7 @@
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/onics.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
