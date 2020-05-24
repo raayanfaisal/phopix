@@ -22,7 +22,7 @@
 
     <!-- Use any element to open/show the overlay navigation menu -->
     <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
-    <img src="/images/phopix.svg" alt="phopix-logo" width="60px" height="60px" class="pull-right mt-2">
+    <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/phopix.svg" alt="phopix-logo" width="60px" height="60px" class="pull-right mt-2">
   </header>
   <section>
     <div class="row">
@@ -74,12 +74,12 @@
               <p data-aos="fade-right">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices.</p>
             </div>
             <div class="second-img">
-              <img src="/images/second-image.jpg" alt="second-image" width="400px" height="400px" data-aos="fade-right">
+              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/second-image.jpg" alt="second-image" width="400px" height="400px" data-aos="fade-right">
             </div>
           </div>
           <div class="col-md-6">
             <div class="about-image">
-              <img src="/images/about-image.jpg" alt="" width="400px" height="400px" data-aos="fade-left">
+              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/about-image.jpg" alt="" width="400px" height="400px" data-aos="fade-left">
               <div class="about-heading-2">
               <h2 data-aos="fade-left">OUR SERVICES</h2>
             </div>
@@ -117,7 +117,7 @@
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
@@ -129,25 +129,25 @@
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/w3.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/1.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/1.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
