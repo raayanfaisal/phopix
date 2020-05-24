@@ -31,9 +31,9 @@
         <h1 class="heading1 text-center" data-aos="fade-up"><b>PHOPIX</b></h1>
         <p class="moto text-center" data-aos="fade-up">MAKING IT, SIMPLE</p>
         <div class="social-icons text-center">
-          <a href=""><i class="fab fa-facebook-f text-center"></i></a>
-          <a href=""><i class="fab fa-twitter text-center"></i></a>
-          <a href=""><i class="fab fa-instagram text-center"></i></a>
+          <a href="https://www.facebook.com/PhoPixMv"><i class="fab fa-facebook-f text-center"></i></a>
+          <a href="https://twitter.com/PhopixM"><i class="fab fa-twitter text-center"></i></a>
+          <a href="https://www.instagram.com/phopix.mv/"><i class="fab fa-instagram text-center"></i></a>
         </div>
 
        
@@ -206,13 +206,13 @@
 
         <ul class="list-unstyled">
           <li>
-          <i class="fab fa-facebook"></i><a href="#!"> Facebook</a>
+          <i class="fab fa-facebook"></i><a href="https://www.facebook.com/PhoPixMv"> Facebook</a>
           </li>
           <li>
-          <i class="fab fa-twitter"></i><a href="#!"> twitter</a>
+          <i class="fab fa-twitter"></i><a href="https://twitter.com/PhopixM"> twitter</a>
           </li>
           <li>
-          <i class="fab fa-instagram"></i><a href="#!"> instagram</a>
+          <i class="fab fa-instagram"></i><a href="https://www.instagram.com/phopix.mv/"> instagram</a>
           </li>
         </ul>
 
