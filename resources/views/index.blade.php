@@ -27,9 +27,9 @@
   <section>
     <div class="row">
       <div class="col">
-        <h3 class="heading0 text-center" data-aos="fade-up">WE ARE</h3>
-        <h1 class="heading1 text-center" data-aos="fade-up"><b>PHOPIX</b></h1>
-        <p class="moto text-center" data-aos="fade-up">MAKING IT, SIMPLE</p>
+        <h3 class="heading0 text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">WE ARE</h3>
+        <h1 class="heading1 text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000"><b>PHOPIX</b></h1>
+        <p class="moto text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">MAKING IT, SIMPLE</p>
         <div class="social-icons text-center">
           <a href="https://www.facebook.com/PhoPixMv"><i class="fab fa-facebook-f text-center"></i></a>
           <a href="https://twitter.com/PhopixM"><i class="fab fa-twitter text-center"></i></a>
@@ -68,24 +68,24 @@
       <div class="row">
           <div class="col-md-6 about-section">
             <div class="about-heading">
-              <h2 id="about" data-aos="fade-right">ABOUT US</h2>
+              <h2 id="about" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">ABOUT US</h2>
             </div>
             <div class="about-text">
-              <p data-aos="fade-right">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices.</p>
+              <p data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">Phopix private limited is a company based in the republic of Maldives. And we offer a variety of services, and we strive to do them as near to perfection as we can get . To ensure maximum customer satisfaction in the end . We specialize in HTML5, CSS3, Laravel, MySQL and WordPress for building custom high-end websites that scale well on all your devices.</p>
             </div>
             <div class="second-img">
-              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/second-image.jpg" alt="second-image" width="400px" height="400px" data-aos="fade-right">
+              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/second-image.jpg" alt="second-image" width="400px" height="400px" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
             </div>
           </div>
           <div class="col-md-6">
             <div class="about-image">
-              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/about-image.jpg" alt="" width="400px" height="400px" data-aos="fade-left">
+              <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/about-image.jpg" alt="" width="400px" height="400px" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
               <div class="about-heading-2">
-              <h2 data-aos="fade-left">OUR SERVICES</h2>
+              <h2 data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">OUR SERVICES</h2>
             </div>
 
             <div class="about-text-2">
-              <p data-aos="fade-left">We offer our clients a variety of services, and they are Designing Logos that meet your standards , Developing applications that run on iOS and Android , managing websites , managing social media pages , designing and developing high end custom websites from scratch. we do all of these services while still upholding the level of quality that we provide. </p>
+              <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">We offer our clients a variety of services, and they are Designing Logos that meet your standards , Developing applications that run on iOS and Android , managing websites , managing social media pages , designing and developing high end custom websites from scratch. we do all of these services while still upholding the level of quality that we provide. </p>
             </div>
             </div>
           </div>
