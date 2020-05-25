@@ -135,7 +135,7 @@
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/2.png" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/cm.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
@@ -147,7 +147,7 @@
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/2.png" alt="Card image cap">
+  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/cm.png" alt="Card image cap">
 </div>
 <!-- Grid column -->
 
