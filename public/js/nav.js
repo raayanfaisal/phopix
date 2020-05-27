@@ -4,9 +4,11 @@ checkbox.addEventListener('change', function(){
   if(this.checked){
       trans()
       document.documentElement.setAttribute('data-theme', 'dark-mode')
+      document.getElementById('myLogo').src='/images/phopix-dark.svg'
   } else {
     trans()
     document.documentElement.setAttribute('data-theme', 'light')
+    document.getElementById('myLogo').src='/images/phopix-light.svg'
   }
 })
 
