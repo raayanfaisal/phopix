@@ -12,8 +12,8 @@
     <!-- Overlay content -->
     <div class="overlay-content">
       <a href="/">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">PORTFOLIO</a>
+      <a href="/">ABOUT</a>
+      <a href="/">SUBSCRIPTIONS</a>
       <a href="/contact">CONTACT</a>
       <!-- Default checked -->
     </div>
