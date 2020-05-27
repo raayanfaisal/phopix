@@ -4,11 +4,11 @@ checkbox.addEventListener('change', function(){
   if(this.checked){
       trans()
       document.documentElement.setAttribute('data-theme', 'dark-mode')
-      document.getElementById('myLogo').src='https://raw.githubusercontent.com/raayanfaisal/phopix/08f517e76e3bc5fc07960300559ecd2a6906c9c5/public/Images/phopix-dark.svg'
+      document.getElementById('myLogo').src='https://raw.githubusercontent.com/raayanfaisal/phopix/08f517e76e3bc5fc07960300559ecd2a6906c9c5/public/Images/phopix-light.svg'
   } else {
     trans()
     document.documentElement.setAttribute('data-theme', 'light')
-    document.getElementById('myLogo').src='https://raw.githubusercontent.com/raayanfaisal/phopix/08f517e76e3bc5fc07960300559ecd2a6906c9c5/public/Images/phopix-light.svg'
+    document.getElementById('myLogo').src='https://raw.githubusercontent.com/raayanfaisal/phopix/08f517e76e3bc5fc07960300559ecd2a6906c9c5/public/Images/phopix-dark.svg'
   }
 })
 
