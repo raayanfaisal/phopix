@@ -13,7 +13,7 @@
     <div class="overlay-content">
       <a href="/">HOME</a>
       <a href="#about">ABOUT</a>
-      <a href="#port">PORTFOLIO</a>
+      <a href="/subscriptions">Subscriptions</a>
       <a href="/contact">CONTACT</a>
       <!-- Default checked -->
     </div>
