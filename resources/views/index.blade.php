@@ -85,7 +85,9 @@
             </div>
 
             <div class="about-text-2">
-              <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">We offer our clients a variety of services, and they are Designing Logos that meet your standards , Developing applications that run on iOS and Android , managing websites , managing social media pages , designing and developing high end custom websites from scratch. we do all of these services while still upholding the level of quality that we provide. </p>
+              <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">We offer a variety of services, such as application development, website development/management, logo designing,
+Social media page development/management. Our services are flexible and customizable, depending upon how you want it! Details are important to us.
+Details matter, it's worth waiting for ----Steve jobs</p>
             </div>
             </div>
           </div>
