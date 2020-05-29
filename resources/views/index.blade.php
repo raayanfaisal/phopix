@@ -87,7 +87,7 @@
             <div class="about-text-2">
               <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">We offer a variety of services, such as application development, website development/management, logo designing,
 Social media page development/management. Our services are flexible and customizable, depending upon how you want it! Details are important to us.
-Details matter, it's worth waiting for ----Steve jobs</p>
+<b>Details matter, it's worth waiting for ----Steve jobs</b></p>
             </div>
             </div>
           </div>
