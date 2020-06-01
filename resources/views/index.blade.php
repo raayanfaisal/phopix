@@ -22,6 +22,7 @@
 
     <!-- Use any element to open/show the overlay navigation menu -->
     <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
+    <button type="button" class="btn mb-3" data-toggle="modal" data-target="#myModal"><i class="fas fa-lightbulb fa-2x"></i></button>
     <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/271d40159719c8a99a796f11019fa886c592e214/public/Images/Phopix-light.svg" alt="phopix-logo" width="60px" height="60px" id="myLogo" class="pull-right mt-2">
   </header>
   <section>
@@ -191,7 +192,6 @@ Social media page development/management. Our services are flexible and customiz
             <a href="/">Back to top</a>
           </li>
           <li>
-          <button type="button" class="btn" data-toggle="modal" data-target="#myModal"><i class="fas fa-sliders-h fa-2x"></i></button>
           </li>
         </ul>
 
