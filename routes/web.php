@@ -30,6 +30,10 @@ Route::get('/privacy', function () {
     return view('privacy');
 });
 
+Route::get('/price', function () {
+    return view('price');
+});
+
 Route::get('/terms', function () {
     return view('terms');
 });
