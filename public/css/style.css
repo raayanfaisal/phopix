@@ -12,6 +12,8 @@ html {
   --bg: white;
   --para: black;
   --heading: black;
+  --butoncolor: #464646;
+  --par: white;
   
 }
 
@@ -19,7 +21,8 @@ html[data-theme="dark-mode"] {
   --bg: #0A0A0A;
   --para: #D9D9D9;
   --heading: #D9D9D9;
-
+  --butoncolor: #E8E8E8;
+  --par: black;
 }
 
  /* The Overlay (background) */
@@ -268,10 +271,34 @@ html.transition *:after {
   position: relative;
 }
 
+.page-indicator {
+  margin-top: 300px;
+}
+.one {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #242424;
+  display: inline-block;
+}
 
+.two {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: silver;
+  border-radius: 50%;
+}
+
+.three {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: silver;
+  border-radius: 50%;
+}
 
 .footer {
-  background-color: #242424;
   color: white;
 }
 
@@ -332,6 +359,8 @@ html.transition *:after {
     height: 300px;
     display: none;
   }
+
+
 }
 
 label {
@@ -346,4 +375,193 @@ label {
 .calculator-price {
   color: var(--para);
   margin-top: 200px;
+}
+
+.light [data-theme="dark"] {
+  display: none;
+}
+
+.design-heading {
+  margin-top: 360px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: var(--heading);
+}
+
+.strt {
+  background-color: var(--butoncolor);
+  color: var(--par);
+}
+
+.vector {
+  position: relative;
+}
+
+.vector img {
+  margin-top: 200px;
+}
+
+.designer {
+  width: 100%;
+  height: 1000px;
+  border: 1px solid black;
+}
+
+.designer-heading01 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: var(--heading);
+  margin-top: 100px;
+}
+
+.components {
+  width: 100%;
+  height: 150px;
+  background-color: silver;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.item {
+  touch-action: none;
+  user-select: none;
+  width: 300px;
+  background-color: springgreen;
+  
+}
+
+#alrt {
+  -webkit-animation: cssAnimation 3s forwards; 
+  animation: cssAnimation 3s forwards;
+}
+
+/*le style du cercle qui sert de zone pour déposer le carré*/
+.dropzone {
+	width: 100%;
+	height: 1000px;
+	background-color: rgb(128, 128, 128);
+	margin: auto;
+	z-index: -1;
+}
+
+/*le cercle change de couleur quand le carré est déplacé*/
+.drop-active {
+  background-color: #a0a0a0;
+}
+
+/*on ajoute une bordure au cercle quand le carré survol celui-ci*/
+.drop-target {
+	border: 15px solid rgb(38, 0, 255);
+}
+
+
+/*le carré change de couleur quand il survol le cercle*/
+.drag-drop {
+	background-color: #583131;
+	width: 500px;
+	height: 100px;
+  color: #fff;
+  transition: background-color 0.3s;
+	text-align: center;
+	transition: border-radius .1s;
+}
+
+.drag-drop.can-drop {
+  color: #000;
+  background-color: #FC6E5E;
+
+}
+
+/*le carré devient un cercle*/
+.drop-ok {
+	
+}
+
+.cont {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.clct {
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.radiolabel {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--para);
+  font-weight: 800;
+}
+
+.price-input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--para);
+  font-weight: 800;
+  font-size: 20px;
+}
+.border-cal {
+  border-radius: 15%;
+  background-color: lightgray;
+}
+
+.calculator_price {
+  margin-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.price-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.cal-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: var(--heading);
+  margin-top: 200px;
+}
+
+.inlinelabel {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--para);
+  font-weight: 800;
+}
+
+.price-fields {
+  margin-top: 315px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 750px) {
+	.dropzone {
+		width: 300px;
+		height: 300px;
+		margin-top: 20%;
+	}
+	
+	.drag-drop {
+	width: 90px;
+	height: 90px;
+	}
+}
+
+@keyframes cssAnimation {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@-webkit-keyframes cssAnimation {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0; display: none;}
 }
