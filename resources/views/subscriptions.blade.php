@@ -2,51 +2,57 @@
 
 @section('content')
 <div class="container">
-<header>
-     <!-- The overlay -->
-    <div id="myNav" class="overlay">
+    <header>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
 
-    <!-- Button to close the overlay navigation -->
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <!-- Overlay content -->
-    <div class="overlay-content">
-      <a href="/">HOME</a>
-      <a href="/">ABOUT</a>
-      <a href="/">SUBSCRIPTIONS</a>
-      <a href="/contact">CONTACT</a>
-      <!-- Default checked -->
-    </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+        <a href="/">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="/subscriptions">SUBSCRIPTIONS</a>
+        <a href="/contact">CONTACT</a>
+        <a href="/design">PIXDesigner</a>
+        <!-- Default checked -->
+        </div>
 
-    </div>
+        </div>
 
-    <!-- Use any element to open/show the overlay navigation menu -->
-    <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
-    <img src="/images/phopix.svg" alt="phopix-logo" width="60px" height="60px" class="pull-right mt-2">
-  </header>
-    <div class="container">
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
+        <button type="button" class="btn mb-3" data-toggle="modal" data-target="#myModal"><i class="fas fa-lightbulb fa-2x"></i></button>
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/271d40159719c8a99a796f11019fa886c592e214/public/Images/Phopix-light.svg" alt="phopix-logo" width="60px" height="60px" id="myLogo" class="pull-right mt-2">
+    </header>
+    <section>
         <div class="row">
-            <div class="col-md-6 heading-counter">
-                <h2 class="" id="suu">Price Calculator</h2>
-                <p class="">Calculate prices of the services you require</p>
-                <a href="#" class="btn btn-lg btn-primary">Continue</a>
+            <div class="col-md-6">
+                <div class="cal-heading">
+                    <h3 class="cal-heading">Calculate the total price</h3>
+                </div>
+                <p class="price-text">use the calculator to select the services you need<br>
+                and get a price quote for the services calculated<br> 
+                on the spot</p>
+                <a href="" class="btn btn-lg btn-primary mb-5" style="">Continue</a>
             </div>
 
-            <div class="col-md-6 calculator-price">
-            <div id="wrp">
-            <form action="" class="" id="cakeform" onsubmit="return false;">
+            <div class="col-md-6">
+            <div class="border-cal">
+            <form action="" class="calculator_price" id="cakeform" onsubmit="return false;">
         <div>
             <div class="cont_order">
                <fieldset>
                 <legend>Calculate the cost</legend>
-                <label >Type of website</label><br>
+                <label class="radiolabel">Type of website</label><br>
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round6" onclick="calculateTotal()" />E-Commerce Website</label><br/>
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round8" onclick="calculateTotal()" />Cooperate Website</label><br/>
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round10" onclick="calculateTotal()" />Business Website</label><br/>
                 <label class='radiolabel'><input type="radio"  name="selectedcake" value="Round12" onclick="calculateTotal()" />Portfolio Website</label><br/>
                 <br/>
 
-                <label >Maintanace</label><br>
+                <label class="radiolabel">Maintanace</label><br>
          
                 <select id="filling" name='filling' onchange="calculateTotal()">
                 <option value="None">Select your option</option>
@@ -65,17 +71,17 @@
                 <input type="checkbox" id="includeinscription" name="includeinscription" onclick="calculateTotal()" />
                 
                 </p>
-                <div id="totalPrice"></div>
-                <div id="usDollar"></div>
+                <div class="radiolabel" id="totalPrice"></div>
+                <div class="radiolabel" id="usDollar"></div>
                 
                 </fieldset>
             </div>
        </form>
        </div>
+       </div>
             </div>
         </div>
-    </div>
-    <script>
+        <script>
      /*
 This source is shared under the terms of LGPL 3
 www.gnu.org/licenses/lgpl.html
@@ -225,5 +231,6 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
     </script>
+    </section>
 </div>
 @endsection
