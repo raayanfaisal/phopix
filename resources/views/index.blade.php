@@ -159,7 +159,7 @@ Social media page development/management. Our services are flexible and customiz
   </section>
   </div>
   <!-- Footer -->
-  <footer class="page-footer font-small indigo footer">
+  <footer class="page-footer">
   
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
