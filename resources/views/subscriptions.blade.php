@@ -30,9 +30,9 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="cal-heading">
-                    <h3 class="calheading">Calculate the total price</h3>
+                    <h3 class="calheading" id="calheading">Calculate the total price</h3>
                 </div>
-                <p class="pricetext">use the calculator to select the services you need<br>
+                <p class="pricetext" id="pricetext">use the calculator to select the services you need<br>
                 and get a price quote for the services calculated<br> 
                 on the spot</p>
                 <a href="" class="btn btn-lg btn-primary mb-5" style="">Continue</a>
