@@ -23,7 +23,7 @@
     <!-- Use any element to open/show the overlay navigation menu -->
     <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
     <button type="button" class="btn mb-3" data-toggle="modal" data-target="#myModal"><i class="fas fa-lightbulb fa-2x"></i></button>
-    <img src="storage/public/images/Phopix-light.svg" alt="phopix-logo" width="60px" height="60px" id="myLogo" class="pull-right mt-2">
+    <img src="storage/app/public/images/Phopix-light.svg" alt="phopix-logo" width="60px" height="60px" id="myLogo" class="pull-right mt-2">
   </header>
   <section>
     <div class="row">
