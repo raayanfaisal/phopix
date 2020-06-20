@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="{{ URL::asset('/css/favicon.png') }}" type="image/x-icon"/>
 
     
     <style>
