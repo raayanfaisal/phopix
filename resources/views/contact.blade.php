@@ -30,7 +30,7 @@
                 @if (Session::has('flash_messege')) 
                        <div class="alert alert-primary">{{ Session::get('flash_messege') }}</div> 
                 @endif
-                <h2 class="mt-4">Contact Us</h2>
+                <h2 class="mt-4" style="color: white;">Contact Us</h2>
               <form method="post" action="{{ route('contact.store') }}">
                   {{ csrf_field() }}
 
