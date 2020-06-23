@@ -22,7 +22,7 @@
 
     <!-- Use any element to open/show the overlay navigation menu -->
     <span onclick="openNav()"><i class="fas fa-bars fa-2x mt-4"></i></span>
-    <img src="/images/phopix.svg" alt="phopix-logo" width="60px" height="60px" class="pull-right mt-2">
+    <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/5b4885ad5387b3bda802435887c6320a9afbf758/public/Images/phopix-dark.svg" alt="phopix-logo" width="60px" height="60px" class="pull-right mt-2">
   </header>
         <div class="row">
             <div class="col-md-6">
