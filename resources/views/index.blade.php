@@ -189,8 +189,8 @@ Social media page development/management. Our services are flexible and customiz
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/" style="color: black;"> phopix.com</a>
+  <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/" style="color: white;"> phopix.com</a>
   </div>
   <!-- Copyright -->
 
