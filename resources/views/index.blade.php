@@ -122,83 +122,60 @@ Social media page development/management. Our services are flexible and customiz
     </div>
   </section>
   </div>
-  <!-- Footer -->
-  <footer class="page-footer">
-  
+ <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 container mt-5" style="margin-top: 20px;">
+
   <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+  <div class="container-fluid text-center text-md-left">
 
     <!-- Grid row -->
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
-          
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Phopix</h5>
+        <p>making it, simple</p>
+
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
+      <hr class="clearfix w-100 d-md-none pb-3">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <h5 class="text-uppercase">Social Media</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="/terms">Terms and Condition</a>
+            <a href="https://www.facebook.com/PhoPixMv" style="color: white;">Facebook</a>
           </li>
           <li>
-            <a href="/privacy">Privacy Policy</a>
+            <a href="https://www.instagram.com/phopix.mv/" style="color: white;">Twitter</a>
           </li>
           <li>
-            <a href="/">Back to top</a>
-          </li>
-          <li>
+            <a href="https://twitter.com/PhopixM" style="color: white;">Instagram</a>
           </li>
         </ul>
 
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Social Media</h5>
+        <h5 class="text-uppercase">Usefull links</h5>
 
         <ul class="list-unstyled">
           <li>
-          <i class="fab fa-facebook"></i><a href="https://www.facebook.com/PhoPixMv"> Facebook</a>
+            <a href="/terms" style="color: white;">Terms and Condition</a>
           </li>
           <li>
-          <i class="fab fa-twitter"></i><a href="https://twitter.com/PhopixM"> twitter</a>
-          </li>
-          <li>
-          <i class="fab fa-instagram"></i><a href="https://www.instagram.com/phopix.mv/"> instagram</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact Us</h5>
-
-        <ul class="list-unstyled">
-          <li>
-          <i class="fas fa-phone-alt"></i><a href="#">7815551 / 9862212</a>
-          </li>
-          <li>
-          <i class="fas fa-envelope"></i><a href="#!">phopixofficial@gmail.com</a>
+            <a href="/privacy" style="color: white;">Privacy Policy</a>
           </li>
         </ul>
 
@@ -213,12 +190,12 @@ Social media page development/management. Our services are flexible and customiz
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> PhoPix.com</a>
+    <a href="https://mdbootstrap.com/" style="color: black;"> phopix.com</a>
   </div>
   <!-- Copyright -->
 
-  </footer>
-  <!-- Footer -->
+</footer>
+<!-- Footer -->
 
 <script src="{{ asset('js/nav.js') }}"></script>
 @endsection
