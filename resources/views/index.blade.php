@@ -135,8 +135,8 @@ Social media page development/management. Our services are flexible and customiz
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase">Phopix</h5>
-        <p>making it, simple</p>
+        <h5 class="text-uppercase" style="color: white;">Phopix</h5>
+        <p style="color: white;">making it, simple</p>
 
       </div>
       <!-- Grid column -->
@@ -147,7 +147,7 @@ Social media page development/management. Our services are flexible and customiz
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">Social Media</h5>
+        <h5 class="text-uppercase" style="color: white;">Social Media</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -168,7 +168,7 @@ Social media page development/management. Our services are flexible and customiz
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">Usefull links</h5>
+        <h5 class="text-uppercase" style="color: white;">Usefull links</h5>
 
         <ul class="list-unstyled">
           <li>
