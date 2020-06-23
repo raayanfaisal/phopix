@@ -96,66 +96,30 @@ Social media page development/management. Our services are flexible and customiz
     </div>
   </section>
   
-  <section>
-      <!-- Grid row -->
-<div class="row">
+  <section style="margin-bottom: 50px;">
+    <div class="portfolio">
+      <h2 id="port" class="text-center">PORTFOLIO</h2>
+    </div>
+    <p class="text-center mb-5" style="font-size: 20px;">These are some our completed works.sites that we created l, we did not get permission to upload them here.</p>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/ml.png" alt="client-logo" width="100%" height="100%">
+      </div>
 
-<!-- Grid column -->
-<div class="col-md-12 d-flex justify-content-center mb-5">
+      <div class="col-md-6 mb-3">
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.jpg" alt="client-logo" width="100%" height="100%">
+      </div>
+    </div>
 
-  <div class="portfolio">
-    <h2 id="port">PORTFOLIO</h2>
-  </div>
+    <div class="row">
+      <div class="col-md-6 mt-3">
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/onics.png" alt="client-logo" width="100%" height="100%">
+      </div>
 
-  <p></p>
-
-</div>
-<!-- Grid column -->
-
-</div>
-<!-- Grid row -->
-
-<!-- Grid row -->
-<div class="gallery" id="gallery">
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/C2logo.png" alt="Card image cap">
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/onics.png" alt="Card image cap">
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/w3.png" alt="Card image cap">
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/cm.png" alt="Card image cap">
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/Clogo.png" alt="Card image cap">
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/cm.png" alt="Card image cap">
-</div>
-<!-- Grid column -->
-
-</div>
-<!-- Grid row -->
+      <div class="col-md-6 mt-3">
+        <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/1.png" alt="client-logo" width="100%" height="100%">
+      </div>
+    </div>
   </section>
   </div>
   <!-- Footer -->
