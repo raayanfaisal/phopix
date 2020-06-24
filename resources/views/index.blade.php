@@ -82,13 +82,14 @@
             <div class="about-image">
               <img src="https://raw.githubusercontent.com/raayanfaisal/phopix/master/public/Images/about-image.jpg" alt="" width="400px" height="400px" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
               <div class="about-heading-2">
-              <h2 data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">OUR SERVICES</h2>
+              <h2 data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">OUR WORKFLOW</h2>
             </div>
 
             <div class="about-text-2">
-              <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">We offer a variety of services, such as application development, website development/management, logo designing,
-Social media page development/management. Our services are flexible and customizable, depending upon how you want it! Details are important to us.
-<b>Details matter, it's worth waiting for ----Steve jobs</b></p>
+              <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
+
+Our workflow consists of three phases once you as the client confirm your order. phase 01 is the initial meeting where we sitdown and discuss in detail the details of the project, phase 02 once the meeting is over we will sign a contract and the design and development phase will begin once it begins you will be notified by email or SMS, phase 03 after development we deploy the website on the live servers and configure everything such as domain and email protocol and we hand out a copy of the source code to you the client
+</p>
             </div>
             </div>
           </div>
