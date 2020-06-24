@@ -95,7 +95,62 @@ Social media page development/management. Our services are flexible and customiz
       </div>
     </div>
   </section>
-  
+    <section>
+    <div class="container">
+    <h2 class="text-center mt-5 pt-5" style="color: white;">OUR SERVICES</h2>
+      <div class="card-group mt-5">
+        <div class="card text-center" style="width: 18rem;">
+          <i class="fas fa-code fa-2x"></i>
+          <div class="card-body">
+            <h5 class="card-title" style="color: white;">Web development</h5>
+            <p class="card-text">Designing and developing custom high-end responsive websites for business and personal uses. </p>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 18rem;">
+          <i class="fas fa-mobile fa-2x"></i>
+          <div class="card-body">
+            <h5 class="card-title" style="color: white;">Application development</h5>
+            <p class="card-text">Developing applications that operate on both iOS and Android and runs stable</p>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 18rem;">
+          <i class="fas fa-paint-roller fa-2x"></i>
+          <div class="card-body">
+            <h5 class="card-title" style="color: white;">Logo designing</h5>
+            <p class="card-text">Designing of custom logos that meets you specifications</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group mt-5">
+        <div class="card text-center" style="width: 18rem;">
+          <i class="fas fa-users fa-2x"></i>
+          <div class="card-body">
+            <h5 class="card-title" style="color: white;">Social Media management</h5>
+            <p class="card-text">Managing of your business social media pages</p>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 18rem;">
+          <i class="fas fa-server fa-2x"></i>
+          <div class="card-body">
+            <h5 class="card-title" style="color: white;">Website maintanance</h5>
+            <p class="card-text">Maintanace of your website eg: Updating, Spam filtering etc</p>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 18rem;">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+          <div class="card-body">
+            <h5 class="card-title" style="color: white;">Web designing</h5>
+            <p class="card-text">Designing of website layout in AdobeXD and photoshop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section style="margin-bottom: 50px;">
     <div class="portfolio">
       <h2 id="port" class="text-center">PORTFOLIO</h2>
