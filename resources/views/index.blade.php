@@ -86,10 +86,7 @@
             </div>
 
             <div class="about-text-2">
-              <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
-
-Our workflow consists of three phases once you as the client confirm your order. phase 01 is the initial meeting where we sitdown and discuss in detail the details of the project, phase 02 once the meeting is over we will sign a contract and the design and development phase will begin once it begins you will be notified by email or SMS, phase 03 after development we deploy the website on the live servers and configure everything such as domain and email protocol and we hand out a copy of the source code to you the client
-</p>
+              <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">Our workflow consists of three phases, once you as the client confirm your order. phase P.01 is the initial meeting where we sitdown and discuss the details of the project. phase P.02 Once P1 is complete we require you to sign a contract, then  only the design and development phase will begin. once it begins you will be notified via email or mobile.  P.03 after P2 we Upload the website on to the live servers and configure everything such as domain and email protocol, and we hand out a copy of the source code to you.</p>
             </div>
             </div>
           </div>
