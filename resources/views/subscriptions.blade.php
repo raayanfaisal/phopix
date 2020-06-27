@@ -11,7 +11,7 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend style="color: white;">Get an instand quote!</legend>
+<legend style="color: white;">Get an instant quote!</legend>
 
 
 <!-- Text input-->
