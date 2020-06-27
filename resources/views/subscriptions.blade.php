@@ -101,9 +101,9 @@ var serv = new Array();
 
  var platform= new Array();
  platform["None"]=0;
- platform["apple"]=30000;
- platform["google"]=20000;
- platform["both"]=15000;
+ platform["apple"]=1000;
+ platform["google"]=500;
+ platform["both"]=2000;
 
  var logo= new Array();
  logo["None"]=0;
