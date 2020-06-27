@@ -61,7 +61,7 @@
 
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
-  <label class="col-md-4 control-label" for="textinput">Off-site backup</label>  
+  <label class="col-md-4 control-label" for="textinput">Off-site backup( Website only )</label>  
     <select name="backup" id="backup" onchange="calculateTotal()">
       <option value="one">12 months</option>
       <option value="two">24 months</option>
@@ -71,7 +71,7 @@
 
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
-  <label class="col-md-4 control-label" for="textinput">Maintanance</label>  
+  <label class="col-md-4 control-label" for="textinput">Maintanance( Website only )</label>  
     <select name="maintain" id="maintain" onchange="calculateTotal()">
       <option value="four">Bronze</option>
       <option value="five">Silver</option>
