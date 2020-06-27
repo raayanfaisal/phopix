@@ -17,7 +17,7 @@
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
   <label class="col-md-4 control-label" for="textinput">Type of service</label>  
-    <select name="tos" id="tos" onchange="calculateTotal()">
+    <select name="tos" id="tos" onchange="calculateTotal()" style="background-color: grey; border: none;">
       <option value="web">Web development</option>
       <option value="social">Social Media management</option>
       <option value="logo">Logo designing</option>
@@ -28,7 +28,7 @@
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
   <label class="col-md-4 control-label" for="textinput">Type of website</label>  
-    <select name="typeow" id="typeow" onchange="calculateTotal()">
+    <select name="typeow" id="typeow" onchange="calculateTotal()" style="background-color: grey; border: none;">
       <option value="e-commerce">E-Commerce</option>
       <option value="commercial">Commercial</option>
       <option value="business">Business</option>
@@ -39,7 +39,7 @@
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
   <label class="col-md-4 control-label" for="textinput">Target platform (if application)</label>  
-    <select name="platform" id="platform" onchange="calculateTotal()">
+    <select name="platform" id="platform" onchange="calculateTotal()" style="background-color: grey; border: none;">
       <option value="apple">iOS</option>
       <option value="google">Apple</option>
       <option value="both">both</option>
@@ -49,7 +49,7 @@
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
   <label class="col-md-4 control-label" for="textinput">Type of logo (if logo)</label>  
-    <select name="logo" id="logo" onchange="calculateTotal()">
+    <select name="logo" id="logo" onchange="calculateTotal()" style="background-color: grey; border: none;">
       <option value="mascott">mascott</option>
       <option value="abstract">Abstract</option>
       <option value="comb">combination mark</option>
@@ -62,7 +62,7 @@
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
   <label class="col-md-4 control-label" for="textinput">Off-site backup( Website only )</label>  
-    <select name="backup" id="backup" onchange="calculateTotal()">
+    <select name="backup" id="backup" onchange="calculateTotal()" style="background-color: grey; border: none;">
       <option value="one">12 months</option>
       <option value="two">24 months</option>
       <option value="three">36 months</option>
@@ -72,7 +72,7 @@
 <!-- Text input-->
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
   <label class="col-md-4 control-label" for="textinput">Maintanance( Website only )</label>  
-    <select name="maintain" id="maintain" onchange="calculateTotal()">
+    <select name="maintain" id="maintain" onchange="calculateTotal()" style="background-color: grey; border: none;">
       <option value="four">Bronze</option>
       <option value="five">Silver</option>
       <option value="six">Silver plus</option>
