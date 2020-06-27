@@ -73,9 +73,9 @@
 <div class="form-group p-2" style="border-bottom: 1px solid white;">
   <label class="col-md-4 control-label" for="textinput">Maintanance</label>  
     <select name="maintain" id="maintain" onchange="calculateTotal()">
-      <option value="four">12 months</option>
-      <option value="five">24 months</option>
-      <option value="six">36 months</option>
+      <option value="four">Bronze</option>
+      <option value="five">Silver</option>
+      <option value="six">Silver plus</option>
     </select>
 </div>
 
