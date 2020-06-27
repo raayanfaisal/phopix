@@ -176,7 +176,7 @@
   </section>
   </div>
  <!-- Footer -->
-<footer class="page-footer font-small blue pt-4 container mt-5" style="margin-top: 20px;">
+<footer class="page-footer font-small blue pt-4 container mt-5" style="margin-top: 20px; border-top: 1px solid white;">
 
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
