@@ -31,7 +31,7 @@
         <h3 class="heading0 text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">WE ARE</h3>
         <h1 class="heading1 text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000"><b>PHOPIX</b></h1>
         <p class="moto text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">MAKING IT, SIMPLE</p>
-        <div class="social-icons text-center">
+        <div class="social-icons text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
           <a href="https://www.facebook.com/PhoPixMv"><i class="fab fa-facebook-f text-center"></i></a>
           <a href="https://twitter.com/PhopixM"><i class="fab fa-twitter text-center"></i></a>
           <a href="https://www.instagram.com/phopix.mv/"><i class="fab fa-instagram text-center"></i></a>
@@ -96,7 +96,7 @@
 <section>
     <div class="container">
     <h2 class="text-center mt-5 pt-5" style="color: white;">OUR SERVICES</h2>
-      <div class="card-group mt-5">
+      <div class="card-group mt-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <div class="card text-center m-4" style="width: 18rem; background-color: #1f1f1f; border-radius: 10px;">
           <i class="fas fa-code fa-2x mt-3"></i>
           <div class="card-body">
@@ -122,7 +122,7 @@
         </div>
       </div>
 
-      <div class="card-group mt-5">
+      <div class="card-group mt-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <div class="card text-center m-4" style="width: 18rem; background-color: #1f1f1f; border-radius: 10px;">
           <i class="fas fa-users fa-2x mt-3"></i>
           <div class="card-body">
